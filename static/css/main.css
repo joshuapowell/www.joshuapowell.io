@@ -1,0 +1,44 @@
+/**
+// main.scss
+//
+// @description
+//    The typography stylesheet helps us define styles that handle the
+//    appearance and positioning of the type used throughtout the site
+//
+// @overview
+//    This stylesheet is written in SASS(1) and compiles all of the styles
+//    we use throughout the site.
+//
+// @see (1) http://sass-lang.com/documentation/file.SASS_REFERENCE.html
+//
+*/
+
+body{
+  font-family: "Aktiv-Grotesk", Arial, sans-serif;
+  font-size: 100.0%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+
+}
+
+p {
+  font-family:
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+  color: #0D82C6;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
