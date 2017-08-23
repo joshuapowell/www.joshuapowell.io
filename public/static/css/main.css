@@ -22,7 +22,7 @@ body{
   background-color: #F2F2F2;
   color: #3D3D3D;
   font-family: "aktiv-grotesk", helvetica, arial, sans-serif;
-  font-size: 100.0%;
+  font-size: 80.0%;
   margin: 0 auto;
   padding: 0;
 }
@@ -87,7 +87,7 @@ article {
   flex: 1 50%;
   margin: 2em;
   max-width: 22em;
-  min-width: 256px;
+  min-width: 16em;
   padding: 2em 4em;
 }
 
