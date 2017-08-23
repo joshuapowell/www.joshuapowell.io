@@ -14,34 +14,50 @@
 */
 
 body{
-  background-color: rgb(242,242,242);
-  color: rgb(38,32,36);
-
-  font-family: "Aktiv-Grotesk", Arial, sans-serif;
+  background-image: url("/static/images/background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: #F2F2F2;
+  color: #3D3D3D;
+  font-family: "aktiv-grotesk", helvetica, arial, sans-serif;
   font-size: 100.0%;
-
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
+/**
+ * Typography
+ */
 h1 {
-  font-family: "Aktiv-Grotesk", Arial, sans-serif;
   font-size: 1.5em;
   font-weight: 600;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 h2 {
-  font-family: "Aktiv-Grotesk", Arial, sans-serif;
-  font-size: 1.3125;
+  font-size: 1.3125em;
   font-weight: 300;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 p {
-  font-family: "Aktiv-Grotesk", Arial, sans-serif;
+  font-family: "calluna", times, serif;
   font-size: 1em;
   line-height: 1.5;
 }
 
+span.its-been-a-really-long-time {
+  text-decoration: line-through;
+}
+
+
+/**
+ * Hyperlinks
+ */
 a,
 a:active,
 a:hover,
@@ -53,4 +69,34 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+
+/**
+ * Layout
+ */
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+article {
+  background-color: #F2F2F2;
+  flex: 1 50%;
+  margin: 2em;
+  max-width: 22em;
+  min-width: 256px;
+  padding: 2em 4em;
+}
+
+@media screen and (max-width: 25.875em) {
+  article {
+    margin: 1em;
+    max-width: 100%;
+    min-width: auto;
+    padding: 1em 2em;
+    width: 100%;
+  }
 }
