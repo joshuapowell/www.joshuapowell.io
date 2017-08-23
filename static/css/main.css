@@ -14,18 +14,30 @@
 */
 
 body{
+  background-color: rgb(242,242,242);
+  color: rgb(38,32,36);
+
   font-family: "Aktiv-Grotesk", Arial, sans-serif;
   font-size: 100.0%;
+
   margin: 0;
   padding: 0;
 }
 
 h1 {
+  font-family: "Aktiv-Grotesk", Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+}
 
+h2 {
+  font-family: "Aktiv-Grotesk", Arial, sans-serif;
+  font-size: 1.3125;
+  font-weight: 300;
 }
 
 p {
-  font-family:
+  font-family: "Aktiv-Grotesk", Arial, sans-serif;
   font-size: 1em;
   line-height: 1.5;
 }
