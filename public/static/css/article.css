@@ -97,7 +97,14 @@ a:hover {
  *
  */
 main {
-  margin: 3em 3em 0;
+  margin: 0 3em;
+}
+
+.site--header {
+  background-color: transparent;
+  margin: 0 auto;
+  max-width: 48em;
+  padding: 1em 0;
 }
 
 .site--footer {
