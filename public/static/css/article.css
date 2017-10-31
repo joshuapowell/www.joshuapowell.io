@@ -130,3 +130,11 @@ main {
   max-width: 48em;
   padding: 5em 3em 3em;
 }
+
+
+/**
+ * Highlighted/Embedded Code Examples
+ */
+.gist .gist-meta {
+  display: none !important;
+}
