@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="description" content="Joshua Powell is a designer, developer, and farmer Pittsburgh, Pennsylvania." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="twitter:title" content="Joshua Powell is a designer, developer, and farmer Pittsburgh, Pennsylvania." />
+    <meta property="twitter:description" content="He is also a cyclist, surfer, camper, husband, and father." />
+    <meta property="twitter:image" content="https://joshuapowell.io/static/images/JoshuaPowell--headshot.jpg" />
+    <meta property="twitter:url" content="https://joshuapowell.io/index.html" />
+
+    <meta property="og:title" content="Joshua Powell is a designer, developer, and farmer Pittsburgh, Pennsylvania." />
+    <meta property="og:description" content="He is also a cyclist, surfer, camper, husband, and father." />
+    <meta property="og:image" content="https://joshuapowell.io/static/images/JoshuaPowell--headshot.jpg" />
+    <meta property="og:url" content="https://joshuapowell.io/index.html" />
+
+    <meta name="robots" content="index, follow" />
+
+    <title>A series of articles, links, and resource on Security by Joshua Powell</title>
+
+    <base href="/" />
+
+    <link rel="shortcut icon" href="/static/images/mark.png" />
+    <link rel="stylesheet" href="/static/css/article.css" />
+
+  </head>
+
+  <body>
+
+    <header class="site--header">
+      <a href="/">
+        <img src="/static/images/mark.png"
+             alt="" title=""
+             width="64" height="64" />
+      </a>
+    </header>
+
+    <main>
+
+      <article class="content">
+
+        <header>
+          <h2 class="series">
+            Application Security
+          </h2>
+
+          <hr />
+
+          <h1>
+            Secure Sockets Layer (SSL) Doesn't have to be Hard
+          </h1>
+        </header>
+
+        <!-- <p class="no-indent"> -->
+        <p>
+          In February, an announcement was posted to the Google Online Security
+          Blog telling us that
+          <a aria-label="Read Google's 2018 HTTPS Announcement" role="link"
+             href="https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html"
+             title="Read Google's 2018 HTTPS Announcement" rel="nofollow">
+            as of July 2018 all websites not using HTTPS would be marked as
+            “Not Secure”
+          </a>.
+        </p>
+
+        <p>
+          For those who aren’t up on what this means, let’s stop for a minute
+          and give a quick explanation. If your website or application has HTTPS
+          in front of your URL, it means that your website has a Secure Sockets
+          Layer (SSL) certificate installed on the server. This encrypts the
+          traffic between the person requesting your site and the site itself,
+          encrypting each transmission between the two. Most people buy these
+          from commercial providers like Comodo, DigiCert, Symantec, or from
+          their domain registrar and have the certificates installed by IT or
+          their web administrator.
+        </p>
+
+        <p>
+          The sound of a “Not Secure” label on your web property sounds
+          terrible. It sounds like Chrome is eroding your credibility. In
+          reality, adding this type of simple certificate to your website
+          increases the credibility and sets a higher standard for the internet
+          as a whole.
+        </p>
+
+        <p>
+          We have always encouraged our partners to use SSL and in the past 18 months we’ve made it a prerequisite to launching any new application or API. What you quickly notice is that renewing and installing updated SSL certificates is not something that is top of mind. This always leads to one of those “Important, but Not-urgent” items that quickly becomes “Urgent and Important”. We wanted to make this process easier for our partners and so we started searching for a new way of buying and installing our SSL certificates.
+        </p>
+
+        <p>
+          We started by taking a look at the kinds of certificate authorities the bigger tech companies were using, Google, Github, Shopify, SquareSpace, and more. We found, to no surprise, Google is a Certificate Authority and therefore sign and issue their own SSL Certificates. Github and Shopify were using the same commercial CA that we were using, DigiCert. Finally, we had a look at SquareSpace and found that they were using certificates that were signed by AVG, the popular free Antivirus software. We dug deeper and discovered that Shopify was also using this same solution for the stores using their service.
+        </p>
+
+        <p>
+          Now we turned our focus to finding out where these AVG signed
+          certificates were coming from. After some searching and digging
+          around we found that these were certificates provided by Let’s
+          Encrypt.
+          <a aria-label="Read Tech Crunch's Coverage of the Let's Encrypt Launch"
+             href="https://techcrunch.com/2016/04/12/lets-encrypt-free-https-certification-push-exits-beta/"
+             title="Read Tech Crunch's Coverage of the Let's Encrypt Launch"
+             rel="nofollow" role="link" >
+            We had heard about Let’s Encrypt when it launched in 2016
+          </a>, but never gave it a serious look. We started testing these Let’s
+          Encrypt certificates on our staging servers and comparing it against
+          our existing certificate providers. What we found was that the Let’s
+          Encrypt SSL Certificates were better and more secure that the
+          certificates we were paying $200-300 per year for.
+        </p>
+
+        <p>
+          The past 8 months since our switch has flown by and we have switched
+          all of our hosted cloud services to the use the Let’s Encrypt
+          certificates. Their command line utilities and simple updates allow
+          us to maintain control of the process and provide increased security
+          to our partners.
+        </p>
+
+        <p>
+          If you’re interested in learning more about Let’s Encrypt visit their
+          website or check out the following related articles.
+        </p>
+
+        <aside>
+          <ul>
+            <li>
+              <a aria-label="Read more articles like this one"
+                 role="link" href=""
+                 title="Read more articles like this one" rel="follow">
+                 Security
+              </a>
+            </li>
+            <li>
+              <a aria-label="Read more articles like this one"
+                 role="link" href=""
+                 title="Read more articles like this one" rel="follow">
+                 SSL
+              </a>
+            </li>
+            <li>
+              <a aria-label="Read more articles like this one"
+                 role="link" href=""
+                 title="Read more articles like this one" rel="follow">
+                 Review
+              </a>
+            </li>
+          </ul>
+        </aside>
+
+        <footer>
+          <!-- Prompt to contact me for professional data infrastructure, data
+               management, and data visualization services.
+          -->
+        </footer>
+
+      </article>
+
+    </main>
+
+    <footer class="site--footer">
+
+        <p>
+          <strong>Joshua Powell is a designer, developer, farmer, <span title="Not as much as I used to.">cyclist</span>, <span title="It's been a really, really long time." class="its-been-a-really-long-time">surfer</span>, camper, husband, father, and entrepreneur. He loves to help organizations with their data needs, practices regenerative agriculture, and can’t imagining doing anything else.
+        </p>
+        <p>
+          Copyright &copy; 2005-2018 Joshua Powell. All rights reserved. Using this website is subject to our <a href="/legal/terms/">Terms of Use</a> and <a href="/legal/privacy-policy/">Privacy Policy</a>.
+        </p>
+
+        <p>
+          Built in Pittsburgh with <a href="https://www.viableindustries.com/" class="quiet">awesome people</a>.
+        </p>
+
+    </footer>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108815253-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108815253-1');
+    </script>
+
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'iok8his',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>
+
+  </body>
+
+</html>
