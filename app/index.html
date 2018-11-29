@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html data-ng-app="ViableDataManagementSystem" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+
+    <meta name="description" content="{{ $root.meta.description }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta property="og:title" content="{{ $root.meta.og.title }}" />
+    <meta property="og:description" content="{{ $root.meta.og.description }}" />
+    <meta property="og:image" content="{{ $root.meta.og.image }}" />
+    <meta property="og:url" content="{{ $root.meta.og.permalink }}" />
+
+    <meta property="twitter:title" content="{{ $root.meta.og.title }}" />
+    <meta property="twitter:description" content="{{ $root.meta.og.description }}" />
+    <meta name="twitter:image" content="{{ $root.meta.og.image }}" />
+    <meta property="twitter:url" content="{{ $root.meta.og.permalink }}" />
+
+    <title data-ng-bind="$root.meta.title"></title>
+
+    <base href="/" />
+
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <link rel="author" href="/humans.txt" />
+
+    <!-- build:css(.) /styles/vendor.css -->
+    <!-- endbuild -->
+
+    <!-- build:css(.tmp) /styles/main.css -->
+    <link rel="stylesheet" href="/styles/main.css" />
+    <!-- endbuild -->
+
+    <meta name="robots" content="index, follow" />
+
+  </head>
+
+  <body class="{{ $root.page.class }}">
+
+    <div data-ng-view=""></div>
+
+    <!-- build:js(.) /scripts/vendor.js -->
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular-resource/angular-resource.js"></script>
+    <script src="node_modules/angular-route/angular-route.js"></script>
+    <script src="node_modules/angular-touch/angular-touch.js"></script>
+    <script src="node_modules/angular-sanitize/angular-sanitize.js"></script>
+    <script src="node_modules/angular-cookie/angular-cookie.js"></script>
+
+    <script src="node_modules/angular-messages/angular-messages.min.js"></script>
+    <script src="node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp,app}) /scripts/scripts.js -->
+    <script src="modules/app--module.js"></script>
+    <script src="modules/app--routes.js"></script>
+    <script src="modules/app--environment.js"></script>
+
+        <!-- Security Module -->
+        <script src="modules/shared/security/security--interceptor.js"></script>
+
+    <!-- endbuild -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '');
+    </script>
+
+</body>
+</html>

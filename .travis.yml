@@ -19,3 +19,9 @@ before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 ~/.ssh/travis_rsa
   - ssh-add ~/.ssh/travis_rsa
+# before_install:
+#   - gem update --system
+#   - gem install sass --version "=3.4.20"
+#   - gem install compass --version "=1.0.3"
+# install:
+#   - npm install
