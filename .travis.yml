@@ -2,12 +2,6 @@ language:
   - node_js
 node_js:
   - 9.7.1
-before_install:
-  - gem update --system
-  - gem install sass --version "=3.4.20"
-  - gem install compass --version "=1.0.3"
-install:
-  - npm install
 os:
   - linux
 addons:
@@ -17,7 +11,7 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-  - rsync -r $TRAVIS_BUILD_DIR/dist/ travis@75.101.242.153:/usr/share/nginx/www_joshuapowell_io/httpdocs/www.joshuapowell.io/dist
+    - rsync -r $TRAVIS_BUILD_DIR/dist/ travis@75.101.242.153:/usr/share/nginx/www_joshuapowell_io/httpdocs/www.joshuapowell.io/dist
   on:
     branch: master
 before_deploy:
