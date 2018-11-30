@@ -2,15 +2,15 @@
   "name": "JoshuaPowell",
   "version": "1.0.0",
   "dependencies": {
-    "angular": "1.7.2",
-    "angular-animate": "1.7.2",
-    "angular-aria": "1.7.2",
+    "angular": "1.7.5",
+    "angular-animate": "1.7.5",
+    "angular-aria": "1.7.5",
     "angular-cookie": "4.1.0",
-    "angular-messages": "1.7.2",
-    "angular-resource": "1.7.2",
-    "angular-route": "1.7.2",
-    "angular-sanitize": "1.7.2",
-    "angular-touch": "1.7.2"
+    "angular-messages": "1.7.5",
+    "angular-resource": "1.7.5",
+    "angular-route": "1.7.5",
+    "angular-sanitize": "1.7.5",
+    "angular-touch": "1.7.5"
   },
   "repository": {},
   "devDependencies": {

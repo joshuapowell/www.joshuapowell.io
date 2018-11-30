@@ -15,7 +15,6 @@
       'ngSanitize',
       'ipCookie',
       'config',
-      'ngMaterial',
       'ngMessages'
     ]).config(function($compileProvider){
       $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|javascript):/);
