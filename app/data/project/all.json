@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "link": "/projects/1",
+        "name": "WaterReporter"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "link": "/projects/2",
+        "name": "Snapology"
+      }
+    }
+  ]
+}

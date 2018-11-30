@@ -77,3 +77,21 @@ a:hover {
 .align-right {
   text-align: right;
 }
+
+
+//
+// Project
+//
+.container-project {
+
+  h1 {
+    font-family: $font--sans;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  h4 {
+    font-family: $font--mono;
+    font-size: 0.75em;
+  }
+}

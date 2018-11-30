@@ -11,7 +11,7 @@
      *   from the route properly
      */
     angular.module('ViableDataManagementSystem')
-        .controller('FrontController', function ($location, $log, $scope, $window) {
+        .controller('FrontController', function (projects, $location, $log, $scope, $window) {
 
             /**
              * Defining the `this` variable at the Controller level will
@@ -26,6 +26,8 @@
              *      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
              */
             var self = this;
+
+            self.projects = projects;
 
             $window.scrollTo(0, 0);
 

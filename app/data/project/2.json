@@ -2,9 +2,9 @@
   "geometry": null,
   "type": "Feature",
   "properties": {
-    "name": "Water Reporter",
+    "name": "Manager &amp; Commerce",
     "client": {
-      "name": "Chesapeake Commons"
+      "name": "Snapology"
     },
     "highlights": [
       "Embeddable, franchise specific ecommerce components"

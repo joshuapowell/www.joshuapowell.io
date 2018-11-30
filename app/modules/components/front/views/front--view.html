@@ -18,8 +18,10 @@
       </p>
 
       <ul>
-        <li>
-          <a href="/projects/1">Project 1</a>
+        <li data-ng-repeat="project in page.projects.features track by $index">
+          <a href="{{ project.properties.link }}">
+            {{ project.properties.name }}
+          </a>
         </li>
       </ul>
     </div>

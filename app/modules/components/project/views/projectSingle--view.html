@@ -1,12 +1,11 @@
 <div data-ng-include="'/templates/header--view.html'"></div>
 
-<main class="container-fluid container-enter">
+<main class="container-fluid container-enter container-project">
 
   <div class="row">
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-      <h1>
-        Project Name
-      </h1>
+      <h1 data-ng-bind-html="page.project.properties.name">
+        </h1>
 
       <h4>
         Project Meta Number 1
@@ -27,25 +26,25 @@
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
       <p>
         <strong>Highlights:</strong><br />
-        <span class="tag" data-ng-repeat="tag in page.project.highlights">
+        <span class="tag" data-ng-repeat="tag in page.project.properties.highlights">
           {{ tag }}<span data-ng-if="!$last">,</span>
         </span>
       </p>
       <p>
         <strong>Design:</strong><br />
-        <span class="tag" data-ng-repeat="tag in page.project.tags.design">
+        <span class="tag" data-ng-repeat="tag in page.project.properties.tags.design">
           {{ tag }}
         </span>
       </p>
       <p>
         <strong>Technology:</strong><br />
-        <span class="tag" data-ng-repeat="tag in page.project.tags.technology">
+        <span class="tag" data-ng-repeat="tag in page.project.properties.tags.technology">
           {{ tag }}
         </span>
       </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-      <div data-ng-repeat="item in page.project.items track by $index">
+      <div data-ng-repeat="item in page.project.properties.items track by $index">
         <picture>
             <source srcset="{{ item.url }}"
                     media="(min-width: 660px)">
@@ -59,7 +58,7 @@
           </div>
           <div class="col-xs-3 align-right">
             <p class="folio">
-              {{ ($index+1) }}/{{ page.project.items.length }}
+              {{ ($index+1) }}/{{ page.project.properties.items.length }}
             </p>
           </div>
         </div>

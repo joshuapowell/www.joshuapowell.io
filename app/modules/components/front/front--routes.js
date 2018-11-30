@@ -16,7 +16,13 @@
                   templateUrl: '/modules/components/front/views/front--view.html',
                   controller: 'FrontController',
                   controllerAs: 'page',
-                  resolve: {}
+                  resolve: {
+                    projects: function(Project) {
+                      return Project.get({
+                        id: "all"
+                      });
+                    }
+                  }
               });
 
         });
