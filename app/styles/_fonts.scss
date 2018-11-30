@@ -1,5 +1,5 @@
 //
-// main.scss
+// _fonts.scss
 //
 // @description
 //    The typography stylesheet helps us define styles that handle the
@@ -13,10 +13,10 @@
 //
 
 
-@import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
 
-@import "_animate";
-@import "_fonts";
-@import "_global";
-@import "_layout";
-@import "_typography";
+
+//
+// Fonts
+//
+$font--mono: 'Anonymous Pro', monospace;
