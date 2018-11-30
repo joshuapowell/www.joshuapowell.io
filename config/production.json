@@ -1,7 +1,7 @@
 {
   "name": "production",
-  "apiUrl": "https://api.joshuapowell.io",
-  "siteUrl": "https://www.joshuapowell.io",
+  "apiUrl": "http://api.joshuapowell.io",
+  "siteUrl": "http://www.joshuapowell.io",
   "defaultURL": "/",
   "clientId": ""
 }
