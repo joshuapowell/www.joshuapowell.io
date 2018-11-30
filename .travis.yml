@@ -12,12 +12,12 @@ install:
   - npm install
 addons:
   ssh_known_hosts:
-    - 75.101.242.153
+    - 100.24.187.123
 deploy:
   provider: script
   skip_cleanup: true
   script:
-    - rsync -r $TRAVIS_BUILD_DIR/dist/ travis@75.101.242.153:/usr/share/nginx/www_joshuapowell_io/httpdocs/www.joshuapowell.io/dist
+    - rsync -r $TRAVIS_BUILD_DIR/dist/ travis@100.24.187.123:/usr/share/nginx/www_joshuapowell_io/httpdocs/www.joshuapowell.io/dist
   on:
     branch: master
 before_deploy:
