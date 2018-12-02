@@ -6,9 +6,7 @@
     "link": "/projects/5",
     "name": "Clean Water Hub",
     "description": "Mobilizing volunteers to track water quality in local creeks and streams.",
-    "body": "<p>The Clean Water Hub was the idea of the Izzak Walton League of America. As a team member of Viable I led the creation of a design system that could scale with the expansion plans of the League.</p>
-<p>Each State and IWLA chapter have specific chemical and biological quality checks that change from ecosystem to ecosystem. I led the team towards a dynamic web form system allows program managers to create collection forms specific to their state and chapter.</p>
-<p>I initiated the creation of an API-first application that allows hundreds of IWLA chapters to create web-based collection forms that are catered to their unique data collection needs.</p>",
+    "body": "<p>The Clean Water Hub was the idea of the Izzak Walton League of America. As a team member of Viable I led the creation of a design system that could scale with the expansion plans of the League.</p><p>Each State and IWLA chapter have specific chemical and biological quality checks that change from ecosystem to ecosystem. I led the team towards a dynamic web form system allows program managers to create collection forms specific to their state and chapter.</p><p>I initiated the creation of an API-first application that allows hundreds of IWLA chapters to create web-based collection forms that are catered to their unique data collection needs.</p>",
     "expertise": "UI Design and Development",
     "deliverables": "Volunteer Mobilization Platform and API",
     "timeline": "2018-Present",
