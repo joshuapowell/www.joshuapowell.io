@@ -1,0 +1,75 @@
+{
+  "geometry": null,
+  "type": "Feature",
+  "properties": {
+    "name": "Water Reporter",
+    "expertise": [],
+    "platforms": [],
+    "deliverables": [],
+    "interested_?": [],
+    "client": {
+      "name": "Chesapeake Commons"
+    },
+    "highlights": [
+      "Embeddable, franchise specific ecommerce components"
+    ],
+    "tags": {
+      "design": [
+        "Sketch", "Photoshop", "Illustrator", "Typekit"
+      ],
+      "technology": [
+        "Angular", "REST API", "Stripe"
+      ]
+    },
+    "items": [
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      },
+      {
+        "caption": "Example project photo caption",
+        "url": "/images/project--SnapologyManager001.png"
+      }
+    ]
+  }
+}

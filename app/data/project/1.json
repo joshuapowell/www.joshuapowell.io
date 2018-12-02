@@ -2,70 +2,23 @@
   "geometry": null,
   "type": "Feature",
   "properties": {
-    "name": "Water Reporter",
-    "client": {
-      "name": "Chesapeake Commons"
+    "color": "#FC6207",
+    "link": "/projects/1",
+    "name": "Snapology",
+    "description": "Empowering a global franchise to share the magic of STEM with our children.",
+    "body": "<p>I inherited this project from another design firm. When I received the project it consisted of a 5-page clickable prototype and a list of functionality.</p>
+<p>I worked with the founders and their first franchise, helping them create a design system that could scale with their platform.</p>
+<p>I lead the team of designers and programmers responsible for implementing this system. The team has created a responsive, contact and event management system that plugs into a custom e-commerce store. The system enables franchise owners to manage each of their franchises through a single interface.</p>",
+    "expertise": "UI Design, System Architecture",
+    "deliverables": "UI Design, System Architecture",
+    "timeline": "2014-Present",
+    "platform": "Cloud",
+    "exit": "The Snapology Manager and Commerce system is an on going project and is set to continue UI revisions and new feature development into 2019.",
+    "icon": "/images/icon--brick.svg",
+    "image": {
+      "1x": "/images/photo--project--snapology.jpg",
+      "2x": "/images/photo--project--snapology@2x.jpg"
     },
-    "highlights": [
-      "Embeddable, franchise specific ecommerce components"
-    ],
-    "tags": {
-      "design": [
-        "Sketch", "Photoshop", "Illustrator", "Typekit"
-      ],
-      "technology": [
-        "Angular", "REST API", "Stripe"
-      ]
-    },
-    "items": [
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      },
-      {
-        "caption": "Example project photo caption",
-        "url": "/images/project--SnapologyManager001.png"
-      }
-    ]
+    "dribbble": "https://dribbble.com/joshuapowell/projects/933298-Snapology"
   }
 }

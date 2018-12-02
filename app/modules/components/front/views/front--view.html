@@ -2,7 +2,7 @@
 
 <main class="container-fluid container-enter">
 
-  <div class="row">
+  <!-- <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
       <p>
         I am a designer who thinks in code. I have 13 years experience working
@@ -12,18 +12,46 @@
         responsible for organizing and implementing design strategies, web and
         mobile applications, and marketing.
       </p>
+    </div>
+  </div> -->
 
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <p>
-        <strong>Projects</strong>
+        I am a designer that creates digital products that my company and other
+        organizations are able to remix, reuse, and resell.
       </p>
-
-      <ul>
-        <li data-ng-repeat="project in page.projects.features track by $index">
-          <a href="{{ project.properties.link }}">
-            {{ project.properties.name }}
-          </a>
-        </li>
-      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div data-ng-repeat="project in page.projects.features track by $index"
+         class="project col-xs-12 col-sm-12 col-md-12 col-lg-12 col-lg-offset-4">
+      <div class="project--photo">
+        <a href="{{ project.properties.link }}">
+          <span class="project--type">
+            {{ project.properties.type }} {{ project.properties.date}}
+          </span>
+          <div class="project--photo--source"
+               style="background-image: url({{ project.properties.image }});">
+            <div class="project--photo--overlay"
+                 style="background-color: {{ project.properties.color }};">
+            </div>
+            <img data-ng-src="{{ project.properties.icon }}"
+                 width="192" height="192"
+                 alt="Project Call to Action {{ project.properties.name }}"
+                 title="View the {{ project.properties.name }} project" />
+          </div>
+        </a>
+      </div>
+      <h2>
+        <a href="{{ project.properties.link }}"
+           class="project--title">
+          {{ project.properties.name }}
+        </a>
+      </h2>
+      <p class="project--description">
+        {{ project.properties.description }}
+      </p>
     </div>
   </div>
 

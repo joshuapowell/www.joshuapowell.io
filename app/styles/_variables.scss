@@ -16,6 +16,14 @@
 
 
 //
+// Color Palette
+//
+$color--black: #1B282F;
+$color--gold: #FFB300;
+$color--sienna: #FC6207;
+
+
+//
 // Mixins
 //
 @mixin border-radius($radius) {

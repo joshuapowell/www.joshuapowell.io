@@ -5,16 +5,84 @@
       "type": "Feature",
       "geometry": null,
       "properties": {
+        "type": "Platform Design",
+        "date": "2015-2018",
+        "color": "#FC6207",
         "link": "/projects/1",
-        "name": "WaterReporter"
+        "name": "Snapology",
+        "description": "Empowering a global franchise to share the magic of STEM with our children.",
+        "icon": "/images/icon--brick.svg",
+        "image": "/images/photo--project--snapology@2x.jpg"
       }
     },
     {
       "type": "Feature",
       "geometry": null,
       "properties": {
+        "type": "Platform Design",
+        "date": "2015-2018",
+        "color": "#055DD0",
         "link": "/projects/2",
-        "name": "Snapology"
+        "name": "WaterReporter",
+        "description": "Connecting environmental stewards with a distributed citizen workforce.",
+        "icon": "/images/icon--water.svg",
+        "image": "/images/photo--project--waterreporter@2x.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Platform Design",
+        "date": "2014-2018",
+        "color": "#123587",
+        "link": "/projects/3",
+        "name": "National Fish and Wildlife Foundation",
+        "description": "Saving and sustaining our fish, wildlife, plants, and habitats for this generation and the next.",
+        "icon": "/images/icon--stream.svg",
+        "image": "/images/photo--project--nfwf@2x.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Platform Design",
+        "date": "2018",
+        "color": "#12F5C5",
+        "link": "/projects/4",
+        "name": "Clean Water Hub",
+        "description": "Helping volunteers track water quality in local creeks and streams.",
+        "icon": "/images/icon--tree.svg",
+        "image": "/images/photo--project--cleanwaterhub@2x.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Platform Design",
+        "date": "2013-2015",
+        "color": "#03C4E4",
+        "link": "/projects/5",
+        "name": "CommonsCloud",
+        "description": "",
+        "icon": "/images/icon--cloud.svg",
+        "image": "/images/photo--project--commonscloud@2x.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "type": "Platform Design",
+        "date": "2018",
+        "color": "#36BE17",
+        "link": "/projects/6",
+        "name": "IRMA",
+        "description": "The answer to global demand for more socially and environmentally responsible mining.",
+        "icon": "/images/icon--mine.svg",
+        "image": "/images/photo--project--irma@2x.jpg"
       }
     }
   ]

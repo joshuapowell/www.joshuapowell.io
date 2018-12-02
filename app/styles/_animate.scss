@@ -35,6 +35,69 @@
    }
 }
 
+@-webkit-keyframes fadeIn90 {
+   from {
+     opacity: 0;
+   }
+
+   to {
+     opacity: 0.9;
+   }
+}
+
+@keyframes fadeIn90 {
+   from {
+     opacity: 0;
+   }
+
+   to {
+     opacity: 0.9;
+   }
+}
+
+//
+// Animations
+//
+@-webkit-keyframes fadeOut {
+   from {
+     opacity: 1;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
+@keyframes fadeOut {
+   from {
+     opacity: 1;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
+@-webkit-keyframes fadeOut90 {
+   from {
+     opacity: 0.9;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
+@keyframes fadeOut90 {
+   from {
+     opacity: 0.9;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
 
 //
 // Easy Use Animation Actions
@@ -47,4 +110,34 @@
 
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+@mixin contentEnter90($duration) {
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeIn90;
+  animation-name: fadeIn90;
+}
+
+@mixin contentLeave($duration) {
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+
+@mixin contentLeave90($duration) {
+  -webkit-animation-duration: $duration;
+  animation-duration: $duration;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeOut90;
+  animation-name: fadeOut90;
 }
