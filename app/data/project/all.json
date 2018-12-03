@@ -52,7 +52,7 @@
         "color": "#12F5C5",
         "link": "/projects/5",
         "name": "Clean Water Hub",
-        "description": "Helping volunteers track water quality in local creeks and streams.",
+        "description": "Mobilizing volunteers to track water quality in local creeks and streams.",
         "icon": "/images/icon--tree.svg",
         "image": "/images/photo--project--cleanwaterhub@2x.jpg"
       }
@@ -66,7 +66,7 @@
         "color": "#03C4E4",
         "link": "/projects/2",
         "name": "CommonsCloud",
-        "description": "",
+        "description": "Equipping nonprofits and foundations with the ability to collect and share geospatial data.",
         "icon": "/images/icon--cloud.svg",
         "image": "/images/photo--project--commonscloud@2x.jpg"
       }
