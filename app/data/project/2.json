@@ -14,8 +14,8 @@
     "exit": "The Commons Cloud platform was gifted to a nonprofit technology firm in 2016 to ensure it’s ongoing support and availability to nonprofits.",
     "icon": "/images/icon--cloud.svg",
     "image": {
-      "1x": "/images/photo--project--commonscloud.jpg",
-      "2x": "/images/photo--project--commonscloud@2x.jpg"
+      "original": "/images/photo--project--commonscloud.jpg",
+      "retina": "/images/photo--project--commonscloud@2x.jpg"
     },
     "dribbble": "https://dribbble.com/joshuapowell/projects/933641-Commons-Cloud"
   }

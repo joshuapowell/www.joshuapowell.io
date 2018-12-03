@@ -2,35 +2,38 @@
 
 <main class="container-fluid container-enter">
 
-  <!-- <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <h1>
+        Hello there
+      </h1>
+    </div>
+  </div>
+  <div class="row lead">
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
       <p>
-        I am a designer who thinks in code. I have 13 years experience working
-        on internal product teams and collaborating with external teams to bring
-        products to market. I am now managing an internal product team that
-        consistently launches new Software as a Service (SaaS) platforms. I am
-        responsible for organizing and implementing design strategies, web and
-        mobile applications, and marketing.
+        I’m a digital platform designer, and software engineer, focusing on
+        API-first platform creation.
+      </p>
+      <p>
+        I currently lead product design and engineering at Viable, where we
+        build API-first location based platforms that fuel smarter decision making.
       </p>
     </div>
-  </div> -->
+  </div>
 
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <p>
-        I am a designer that creates digital products that my company and other
-        organizations are able to remix, reuse, and resell.
-      </p>
+      <h1>
+        Selected Projects
+      </h1>
     </div>
   </div>
   <div class="row">
     <div data-ng-repeat="project in page.projects.features track by $index"
-         class="project col-xs-12 col-sm-12 col-md-12 col-lg-12 col-lg-offset-4">
+         class="projects col-xs-12 col-sm-6 col-md-4 col-lg-4">
       <div class="project--photo">
         <a href="{{ project.properties.link }}">
-          <span class="project--type">
-            {{ project.properties.type }} {{ project.properties.date}}
-          </span>
           <div class="project--photo--source"
                style="background-image: url({{ project.properties.image }});">
             <div class="project--photo--overlay"
@@ -51,6 +54,24 @@
       </h2>
       <p class="project--description">
         {{ project.properties.description }}
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <h1>
+        Need help?
+      </h1>
+    </div>
+  </div>
+  <div class="row lead">
+    <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+      <p>
+        If you have a design system, platform, or API-based project that you are
+        interested in starting and need an experienced product designer or API
+        specialist, <a href="mailto:joshuaisaacpowell@gmail.com">
+          send me an email
+        </a>.
       </p>
     </div>
   </div>

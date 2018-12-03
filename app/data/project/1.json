@@ -14,8 +14,8 @@
     "exit": "The Snapology Manager and Commerce system is an on going project and is set to continue UI revisions and new feature development into 2019.",
     "icon": "/images/icon--brick.svg",
     "image": {
-      "1x": "/images/photo--project--snapology.jpg",
-      "2x": "/images/photo--project--snapology@2x.jpg"
+      "original": "/images/photo--project--snapology.jpg",
+      "retina": "/images/photo--project--snapology@2x.jpg"
     },
     "dribbble": "https://dribbble.com/joshuapowell/projects/933298-Snapology"
   }

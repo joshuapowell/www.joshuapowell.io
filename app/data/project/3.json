@@ -14,8 +14,8 @@
     "exit": "The Water Reporter platform was successfully handed of to the Chesapeake Commons in-house development team for future development.",
     "icon": "/images/icon--water.svg",
     "image": {
-      "1x": "/images/photo--project--waterreporter.jpg",
-      "2x": "/images/photo--project--waterreporter@2x.jpg"
+      "original": "/images/photo--project--waterreporter.jpg",
+      "retina": "/images/photo--project--waterreporter@2x.jpg"
     },
     "dribbble": "https://dribbble.com/joshuapowell/projects/933297-WaterReporter"
   }

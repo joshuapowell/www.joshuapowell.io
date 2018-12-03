@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: normal;
     margin: 0;
     padding: 0;
@@ -29,17 +29,30 @@ h6 {
 }
 
 h1 {
-    font-size: 2rem;
-    padding-bottom: 1rem;
+  font-family: $font--sans;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: $font--sans;
+  font-size: 1em;
+  font-weight: 500;
 }
 
 p {
-    font-size: 1rem;
-    font-weight: normal;
+    font-size: 0.75rem;
+    font-weight: 300;
 
     &.inline {
       display: inline-block;
     }
+}
+
+.lead {
+  p {
+    font-size: 1.125em;
+  }
 }
 
 ul, ol {
@@ -76,22 +89,4 @@ a:hover {
 
 .align-right {
   text-align: right;
-}
-
-
-//
-// Project
-//
-.container-project {
-
-  h1 {
-    font-family: $font--sans;
-    font-size: 1em;
-    font-weight: 500;
-  }
-
-  h4 {
-    font-family: $font--mono;
-    font-size: 0.75em;
-  }
 }

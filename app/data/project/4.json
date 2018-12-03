@@ -14,8 +14,8 @@
     "exit": "I continue to work with the Chesapeake Commons via my position at Viable to scale the product with my user interface and API-first development approach.",
     "icon": "/images/icon--stream.svg",
     "image": {
-      "1x": "/images/photo--project--nfwf.jpg",
-      "2x": "/images/photo--project--nfwf@2x.jpg"
+      "original": "/images/photo--project--nfwf.jpg",
+      "retina": "/images/photo--project--nfwf@2x.jpg"
     },
     "dribbble": "https://dribbble.com/joshuapowell/projects/933299-FieldDoc"
   }

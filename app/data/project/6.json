@@ -14,8 +14,8 @@
     "exit": "I continue to work with the team at the Izaak Walton League to expand the platform with new functionality, our next phase begins in 2019.",
     "icon": "/images/icon--mine.svg",
     "image": {
-      "1x": "/images/photo--project--irma.jpg",
-      "2x": "/images/photo--project--irma@2x.jpg"
+      "original": "/images/photo--project--irma.jpg",
+      "retina": "/images/photo--project--irma@2x.jpg"
     },
     "dribbble": "https://dribbble.com/joshuapowell/projects/933301-Initiative-for-Responsible-Mining-Assurance"
   }

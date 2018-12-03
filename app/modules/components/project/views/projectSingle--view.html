@@ -2,7 +2,7 @@
 
 <main class="container-fluid container-enter container-project">
 
-  <article>
+  <article class="project">
     <header>
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -11,16 +11,16 @@
           </h1>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          <h1>
+          <p>
             {{ page.project.properties.description }}
-          </h1>
+          </p>
         </div>
       </div>
     </header>
 
-    <section>
+    <section class="project--metadata">
       <div class="row">
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <h2>
             Expertise
           </h2>
@@ -28,7 +28,7 @@
             {{ page.project.properties.expertise }}
           </p>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <h2>
             Deliverable
           </h2>
@@ -36,7 +36,7 @@
             {{ page.project.properties.deliverables }}
           </p>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <h2>
             Timeline
           </h2>
@@ -44,7 +44,7 @@
             {{ page.project.properties.timeline }}
           </p>
         </div>
-        <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
           <h2>
             Platform
           </h2>
@@ -53,6 +53,8 @@
           </p>
         </div>
       </div>
+    </section>
+    <section class="project--casestudy">
       <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div data-ng-bind-html="page.project.properties.body"></div>
@@ -63,8 +65,22 @@
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-          {{ page.project.properties.icon }}
-          {{ page.project.properties.image }}
+          <picture>
+            <img data-ng-src="{{ page.project.properties.image.retina }}"
+                 width="100%" />
+          </picture>
+          <!-- <div class="project--photo">
+            <div class="project--photo--source"
+                 style="background-image: url({{ page.project.properties.image.retina }});">
+              <div class="project--photo--overlay"
+                   style="background-color: {{ page.project.properties.color }};">
+              </div>
+              <img data-ng-src="{{ page.project.properties.icon }}"
+                   width="192" height="192"
+                   alt="Project Call to Action {{ page.project.properties.name }}"
+                   title="View the {{ page.project.properties.name }} project" />
+            </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -72,4 +88,5 @@
 
 </main>
 
-<div data-ng-include="'/templates/footer--view.html'"></div>
+<div data-ng-include="'/templates/footer--view.html'"
+     class="container-fluid"></div>
