@@ -1,4 +1,4 @@
-<div data-ng-include="'/templates/header--view.html'"></div>
+<div data-ng-include="'/templates/headerFront--view.html'"></div>
 
 <main class="container-fluid container-enter">
 
@@ -32,7 +32,7 @@
   <div class="row">
     <div data-ng-repeat="project in page.projects.features track by $index"
          class="projects col-xs-12 col-sm-6 col-md-4 col-lg-4">
-      <div class="project--photo">
+      <!-- <div class="project--photo">
         <a href="{{ project.properties.link }}">
           <div class="project--photo--source"
                style="background-image: url({{ project.properties.image }});">
@@ -45,7 +45,9 @@
                  title="View the {{ project.properties.name }} project" />
           </div>
         </a>
-      </div>
+      </div> -->
+      <img data-ng-src="{{ project.properties.image }}" alt="" title=""
+           width="100%" />
       <h2>
         <a href="{{ project.properties.link }}"
            class="project--title">
@@ -69,9 +71,7 @@
       <p>
         If you have a design system, platform, or API-based project that you are
         interested in starting and need an experienced product designer or API
-        specialist, <a href="mailto:joshuaisaacpowell@gmail.com">
-          send me an email
-        </a>.
+        specialist, <a href="mailto:joshuaisaacpowell@gmail.com">send me an email</a>.
       </p>
     </div>
   </div>
