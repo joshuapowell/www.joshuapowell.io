@@ -29,17 +29,17 @@
 
             project.$promise.then(function(successResponse) {
               self.project = successResponse;
+
+              $scope.$on('$viewContentLoaded', function(event) {
+                $window.gtag('config', 'UA-108815253-1', {
+                      'page_title': 'Project Page: ' + self.project.properties.name,
+                      'page_location': $location.url(),
+                      'page': $location.url()
+                    });
+              });
             })
 
             $window.scrollTo(0, 0);
-
-            $scope.$on('$viewContentLoaded', function(event) {
-              $window.gtag('config', 'UA-108815253-1', {
-                    'page_title': 'Project Page: ' + self.project.properties.name,
-                    'page_location': $location.url(),
-                    'page': $location.url()
-                  });
-            });
 
         });
 
