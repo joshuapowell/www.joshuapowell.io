@@ -11,7 +11,7 @@
      *   from the route properly
      */
     angular.module('ViableDataManagementSystem')
-        .controller('ProjectSingleController', function (project, $location, $log, $scope, $window) {
+        .controller('ProjectSingleController', function (project, $location, $log, $route, $scope, $window) {
 
             /**
              * Defining the `this` variable at the Controller level will
@@ -27,19 +27,17 @@
              */
             var self = this;
 
-            project.$promise.then(function(successResponse) {
-              self.project = successResponse;
-
-              $scope.$on('$viewContentLoaded', function(event) {
-                $window.gtag('config', 'UA-108815253-1', {
-                      'page_title': 'Project Page: ' + self.project.properties.name,
-                      'page_location': $location.url(),
-                      'page': $location.url()
-                    });
-              });
-            })
+            self.project = project;
 
             $window.scrollTo(0, 0);
+
+            $scope.$on('$viewContentLoaded', function(event) {
+              $window.gtag('config', 'UA-108815253-1', {
+                    'page_title': 'Project Page: ' + $route.current.params.id,
+                    'page_location': $location.url(),
+                    'page': $location.url()
+                  });
+            });
 
         });
 
