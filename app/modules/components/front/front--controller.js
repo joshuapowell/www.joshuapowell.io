@@ -43,7 +43,7 @@
             $window.scrollTo(0, 0);
 
             $scope.$on('$viewContentLoaded', function(event) {
-              $window.gtag('config', '', {
+              $window.gtag('config', 'UA-108815253-1', {
                     'page_title': 'Joshua Powell Front Page',
                     'page_location': $location.url(),
                     'page': $location.url()
