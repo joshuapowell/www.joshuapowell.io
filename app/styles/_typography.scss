@@ -77,6 +77,29 @@ a:hover {
     text-decoration: none;
 }
 
+a.button,
+a.button:active,
+a.button:focus,
+a.button:hover,
+a.button:link,
+a.button:visited {
+  background-color: $color--gold;
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: $font--sans;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 1em auto 2em;
+  padding: 1em 3em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+a.button:active {
+  top: 1px;
+}
+
 
 
 .align-left {
