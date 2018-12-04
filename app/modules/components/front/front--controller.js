@@ -11,7 +11,7 @@
      *   from the route properly
      */
     angular.module('ViableDataManagementSystem')
-        .controller('FrontController', function (projects, $location, $log, $scope, $window) {
+        .controller('FrontController', function (projects, $location, $log, $rootScope, $scope, $window) {
 
             /**
              * Defining the `this` variable at the Controller level will
@@ -28,6 +28,17 @@
             var self = this;
 
             self.projects = projects;
+
+            $rootScope.meta = {
+              "title": "Product, Software as a Service, &amp; API Designer &raquo; Pittsburgh PA",
+              "description": "Joshua Powell is a digital product, software as a service, and API designer based in Pittsburgh, PA",
+              "og": {
+                "title": "Product, Software as a Service, API Designer | Pittsburgh PA",
+                "description": "Joshua Powell is a digital product, software as a service, and API designer based in Pittsburgh, PA",
+                "image": "https://www.joshuapowell.io/images/logo.png",
+                "permalink": "https://www.joshuapowell.io"
+              }
+            }
 
             $window.scrollTo(0, 0);
 
