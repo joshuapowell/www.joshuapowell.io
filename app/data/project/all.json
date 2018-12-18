@@ -12,7 +12,8 @@
         "name": "Snapology",
         "description": "Empowering a global franchise to share the magic of STEM with our children.",
         "icon": "/images/icon--brick.svg",
-        "image": "/images/photo--project--snapology@2x.jpg"
+        "image": "/images/photo--project--snapology@2x.jpg",
+        "imageHover": "/images/photo--project--snapology--color@2x.jpg"
       }
     },
     {

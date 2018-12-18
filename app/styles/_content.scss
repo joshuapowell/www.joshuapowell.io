@@ -7,7 +7,7 @@
   margin: 0 0 2em;
   padding: 0;
 
-  &:hover .project--photo--overlay {
+  &:hover img {
     @include contentEnter90(500ms);
   }
 }
@@ -27,6 +27,7 @@
 }
 
 .project--photo {
+  display: inline-block;
   position: relative;
   max-width: 32em;
   width: 100%;
