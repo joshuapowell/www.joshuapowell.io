@@ -11,7 +11,7 @@
      *   from the route properly
      */
     angular.module('ViableDataManagementSystem')
-        .controller('FrontController', function (projects, $location, $log, $rootScope, $scope, $window) {
+        .controller('FrontController', function (current, dream, projects, $location, $log, $rootScope, $scope, $window) {
 
             /**
              * Defining the `this` variable at the Controller level will
@@ -26,6 +26,10 @@
              *      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
              */
             var self = this;
+
+            self.current = current;
+
+            self.dream = dream;
 
             self.projects = projects;
 

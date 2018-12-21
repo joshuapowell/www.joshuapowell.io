@@ -17,6 +17,16 @@
                   controller: 'FrontController',
                   controllerAs: 'page',
                   resolve: {
+                    current: function(Project) {
+                      return Project.get({
+                        id: "current"
+                      });
+                    },
+                    dream: function(Project) {
+                      return Project.get({
+                        id: "dream"
+                      });
+                    },
                     projects: function(Project) {
                       return Project.get({
                         id: "all"

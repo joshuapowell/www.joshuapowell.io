@@ -12,54 +12,58 @@
         </div>
       </div>
       <div class="row lead">
-        <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <p>
-            I'm Joshua Powell, a digital platform designer, and software
-            engineer, focusing on API-first platform creation.
+            I'm Joshua Powell. I help organizations design user experiences that
+            enable people to connect with the data, devices, and other humans.
           </p>
           <p>
-            I currently lead product design and engineering at Viable, where we
-            build API-first location based platforms that fuel smarter decision making.
+            I currently lead product design and engineering at Viable. At Viable
+            I've created an open source location based API. I've helped over
+            40 organizations create products, platforms, and systems that make
+            their teams more efficient, create new opportunities, and are turned
+            into new revenue streams.
           </p>
         </div>
       </div>
     </header>
+
     <section class="front--projects">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <h1>
-            Selected Projects
+            Current -
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div data-ng-repeat="project in page.current.features track by $index"
+             class="projects col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <h2 class="project--title">
+            {{ project.properties.name }}
+          </h2>
+          <p class="project--description"
+             data-ng-bind-html="project.properties.description">
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="front--projects">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h1>
+            Recent -
           </h1>
         </div>
       </div>
       <div class="row">
         <div data-ng-repeat="project in page.projects.features track by $index"
-             class="projects col-xs-12 col-sm-6 col-md-4 col-lg-4">
-          <!-- <div class="project--photo">
-            <a href="{{ project.properties.link }}">
-              <div class="project--photo--source"
-                   style="background-image: url({{ project.properties.image }});">
-                <div class="project--photo--overlay"
-                     style="background-color: {{ project.properties.color }};">
-                </div>
-                <img data-ng-src="{{ project.properties.icon }}"
-                     width="192" height="192"
-                     alt="Project Call to Action {{ project.properties.name }}"
-                     title="View the {{ project.properties.name }} project" />
-              </div>
-            </a>
-          </div> -->
+             class="projects col-xs-12 col-sm-4 col-md-4 col-lg-3">
           <a href="{{ project.properties.link }}"
              class="project--photo">
              <img data-ng-src="{{ project.properties.image }}" alt="" title=""
                   width="100%" />
-             <!-- <div class="project--photo--source"
-                  style="background-image: url({{ project.properties.image }});"> -->
-               <!-- <img data-ng-src="{{ project.properties.icon }}"
-                    width="192" height="192"
-                    alt="Project Call to Action {{ project.properties.name }}"
-                    title="View the {{ project.properties.name }} project" /> -->
-             <!-- </div> -->
           </a>
           <h2>
             <a href="{{ project.properties.link }}"
@@ -73,6 +77,36 @@
         </div>
       </div>
     </section>
+
+    <section class="front--projects">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <h1>
+            Dream Projects -
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <p>
+            I love to help people design user experiences around data, but I'd
+            jump at the chance to work on:
+          </p>
+        </div>
+      </div>
+      <div class="row">
+      <div data-ng-repeat="project in page.dream.features track by $index"
+      <div class="projects col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <h2 class="project--title">
+          {{ project.properties.name }}
+        </h2>
+        <p class="project--description"
+           data-ng-bind-html="project.properties.description">
+        </p>
+      </div>
+    </div>
+    </section>
+
     <section class="front--cta">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">

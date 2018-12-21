@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Connecting microcontrollers and sensors to the cloud",
+        "description": "I'm programming microcontrollers to transmit simple sensor data to cloud data APIs and user interfaces"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Open source location based data platform",
+        "description": "Expanding an open source location based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Adventure-style game called Dark Cedars",
+        "description": "Writing an adventure-style game called Dark Cedars. Premise: You join a group of loggers on a expedition to harvest 6 rare trees that hold a dark secret. Will you make it out?"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "name": "Organic, small-scale four season indoor farming",
+        "description": "Experimenting with indoor growing methods, how technology can interface to increase crop yields, and applying outdoor-growing concepts to indoor harvesting."
+      }
+    }
+  ]
+}
