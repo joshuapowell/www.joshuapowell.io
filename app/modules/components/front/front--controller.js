@@ -34,13 +34,13 @@
             self.projects = projects;
 
             $rootScope.meta = {
-              "title": "Product, Software as a Service, &amp; API Designer &raquo; Pittsburgh PA",
-              "description": "Joshua Powell is a digital product, software as a service, and API designer based in Pittsburgh, PA",
+              "title": "Human Data Interaction Designer with a focus on SaaS and APIs",
+              "description": "Joshua Powell is a human data interaction designer creating software as a service products and APIs based in Pittsburgh, PA",
               "og": {
-                "title": "Product, Software as a Service, API Designer | Pittsburgh PA",
-                "description": "Joshua Powell is a digital product, software as a service, and API designer based in Pittsburgh, PA",
+                "title": "Human Data Interaction Designer with a focus on SaaS and APIs",
+                "description": "Joshua Powell is a human data interaction designer creating software as a service products and APIs based in Pittsburgh, PA",
                 "image": "https://www.joshuapowell.io/images/logo.png",
-                "permalink": "https://www.joshuapowell.io"
+                "permalink": "https://www.joshuapowell.io/"
               }
             }
 
