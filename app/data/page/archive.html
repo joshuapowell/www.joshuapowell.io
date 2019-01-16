@@ -1,0 +1,67 @@
+<main class="container-fluid container-enter container-project">
+
+  <article class="project">
+    <header>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>
+            Archive
+          </h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <p>
+            {{ page.project.properties.description }}
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="project--metadata">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <h2>
+            Year
+          </h2>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9">
+        </div>
+      </div>
+
+      <div class="row" style="border-top: 1px solid #e0e0e0; padding-top: 1em; margin-top: 1em;"
+           data-ng-repeat="archive in page.content.properties.body.archive | orderBy:'year':true track by $index">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <h3>
+            {{ archive.year }}
+          </h3>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9">
+          <table>
+            <tbody>
+              <tr data-ng-repeat="project in archive.projects">
+                <td>
+                  {{ project.project_client }}
+                </td>
+
+                <td data-ng-if="project.project_link">
+                  <a href="{{ project.project_link }}"
+                     target="_blank">
+                    {{ project.project_name }}
+                  </a>
+                </td>
+                <td data-ng-if="!project.project_link">
+                  {{ project.project_name }}
+                </td>
+
+                <td>
+                  {{ project.project_deliverable }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+</main>
