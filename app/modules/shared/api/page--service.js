@@ -17,7 +17,7 @@
           isArray: false
         },
         withSection: {
-          url: environment.apiUrl.concat('/data/page/:sectionName/:id.json')
+          url: environment.siteUrl.concat('/data/page/:sectionName/:id.json')
         }
       });
     });
