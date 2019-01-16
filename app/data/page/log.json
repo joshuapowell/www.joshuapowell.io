@@ -1,0 +1,22 @@
+{
+  "geometry": null,
+  "type": "Feature",
+  "properties": {
+    "link": "/log",
+    "name": "Log",
+    "template": "/data/page/log/index.html",
+    "meta": {
+      "title": "",
+      "description": "",
+      "permalink": "https://www.viable.io/log",
+      "image": "https://www.viable.io/images/logoViableIndustries@3x.png"
+    },
+    "entries": [
+      {
+        "title": "Artwork from the 60s",
+        "date": "2019-01-15",
+        "permalink": "/log/wolverton-and-saunders"
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+<main class="container-fluid container-enter container-project">
+
+  <article class="project">
+    <header>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h1>
+            Basil Wolverton and Norman Saunders
+          </h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+          <p>
+            I walked through the thrift store, poking at books and rummaging
+            through old boxes. I was there on my wife's request, charged with
+            locating two chairs for our living room.
+          </p>
+          <p>
+            I rounded the corner into the furniture section and quickly glanced
+            over the selection of worn out La-Z-Boys, broken IKEA furniture, and
+            mismatched dining chairs. Nothing particularly promising.
+          </p>
+          <p>
+            Before leaving, I figured I should check the back. Sometimes the
+            staff would place recently donated and sometimes better conditioned
+            items there. On my way, a warddrobe caught my attention. It was a
+            cheap ugly warddrobe but I remembered it from when I was a child.
+          </p>
+          <p>
+            I opened the drawers and was greeted with the same musty, wood smell
+            as the one that sat in my grandparents room. I opened the closet door
+            and found several stickers on the inside. They were brightly colored
+            with beautifully detailed hair, slime, and worts.
+          </p>
+          <p>
+            I snagged some photos of the stickers and headed out.
+          </p>
+          <p>
+            What I didn't realize was that these were the work of a man that
+            some say to be the most polarizing artist in comic history. Yet,
+            I had never heard his name.
+            ... upon quizzing my son ...
+          </p>
+          <p>
+            Basil Wolverton and Norman Saunders created these beatiful little
+            works of art. Both men's worked was used by Marvel and the science
+            fiction publishing community in the 50s and 60s.
+          </p>
+          <p>
+            The detail, colors, and composition of each card is mesmerizing. I
+            look over each card
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="project--metadata">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+          <h2>
+            Entries
+          </h2>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-9 col-lg-9">
+        </div>
+      </div>
+
+      <div class="row" style="border-top: 1px solid #e0e0e0; padding-top: 1em; margin-top: 1em;"
+           data-ng-repeat="entry in page.content.properties.entries | orderBy:'date':true track by $index">
+        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+          <p>
+            {{ entry.date }}
+          </p>
+          <h2>
+            {{ entry.title }}
+          </h2>
+
+          <p>
+            As I
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </article>
+
+</main>
