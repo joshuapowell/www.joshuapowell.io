@@ -56,7 +56,7 @@
               "project_client": "FieldDoc",
               "project_name": "Integrate Impact Model as API",
               "project_link": null,
-              "project_deliverable": "... model ... claculations ... as an api"
+              "project_deliverable": "Converted scientific models into REST API endpoints"
             },
             {
               "project_client": "Snapology",
@@ -92,7 +92,8 @@
               "project_name": "Trending People, Hashtags, and Places",
               "project_link": "",
               "project_deliverable": "Data, Microservices, Design, App Development"
-            }          ]
+            }
+          ]
         },
         {
           "year": 2016,
@@ -121,16 +122,10 @@
               "project_deliverable": "API, Map, and Data Analytics"
             },
             {
-              "project_client": "Snapology",
-              "project_name": "",
-              "project_link": "",
-              "project_deliverable": ""
-            },
-            {
               "project_client": "Watershed Stewards Academy",
               "project_name": "Clean Water Communities",
               "project_link": "",
-              "project_deliverable": ""
+              "project_deliverable": "Land Use Data, API, Niche Calculator"
             }
           ]
         },
@@ -159,7 +154,7 @@
               "project_name": "Open-source API Gateway",
               "project_link": "",
               "project_deliverable": "API, Map, and Data Analytics"
-            }
+            },
             {
               "project_client": "Foundation for Pennsylvania Watersheds",
               "project_name": "State-level Project Mapping",
@@ -235,18 +230,6 @@
               "project_name": "",
               "project_link": "",
               "project_deliverable": ""
-            },
-            {
-              "project_client": "Heinz College",
-              "project_name": "",
-              "project_link": "",
-              "project_deliverable": ""
-            },
-            {
-              "project_client": "Creative Nonfiction",
-              "project_name": "",
-              "project_link": "",
-              "project_deliverable": ""
             }
           ]
         },
@@ -264,28 +247,6 @@
               "project_name": "Create a REST endpoints with WordPress",
               "project_link": "",
               "project_deliverable": "API, Drupal, and open source data"
-            }
-          ]
-        },
-        {
-          "year": 2009,
-          "projects": [
-            {
-              "project_client": "sdf",
-              "project_name": "sdf",
-              "project_link": "",
-              "project_deliverable": "API, Map, and Data Analytics"
-            }
-          ]
-        },
-        {
-          "year": 2008,
-          "projects": [
-            {
-              "project_client": "sdf",
-              "project_name": "sdf",
-              "project_link": "",
-              "project_deliverable": "API, Map, and Data Analytics"
             }
           ]
         }

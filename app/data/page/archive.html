@@ -38,21 +38,21 @@
           <table>
             <tbody>
               <tr data-ng-repeat="project in archive.projects">
-                <td>
+                <td width="30%">
                   {{ project.project_client }}
                 </td>
 
-                <td data-ng-if="project.project_link">
+                <td data-ng-if="project.project_link" width="30%">
                   <a href="{{ project.project_link }}"
                      target="_blank">
                     {{ project.project_name }}
                   </a>
                 </td>
-                <td data-ng-if="!project.project_link">
+                <td data-ng-if="!project.project_link" width="30%">
                   {{ project.project_name }}
                 </td>
 
-                <td>
+                <td width="40%">
                   {{ project.project_deliverable }}
                 </td>
               </tr>
