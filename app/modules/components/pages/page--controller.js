@@ -33,14 +33,24 @@
               $log.log('self.content', self.content);
 
               $rootScope.meta = {
-                "title": self.content.properties.meta.title ? self.content.properties.meta.title : "",
-                "description": self.content.properties.meta.description ? self.content.properties.meta.description : "",
+                "title": "",
+                "description": "",
                 "og": {
-                  "title": self.content.properties.meta.title ? self.content.properties.meta.title : "",
-                  "description": self.content.properties.meta.description ? self.content.properties.meta.description : "",
-                  "image": self.content.properties.meta.image ? self.content.properties.meta.image : "",
-                  "permalink": self.content.properties.meta.permalink ? self.content.properties.meta.permalink : ""
+                  "title": "",
+                  "description": "",
+                  "image": "",
+                  "permalink": ""
                 }
+              }
+
+              if (self.content.properties.meta) {
+                $rootScope.meta.title = self.content.properties.meta.title;
+                $rootScope.meta.description = self.content.properties.meta.description;
+
+                $rootScope.meta.og.title = self.content.properties.meta.title;
+                $rootScope.meta.og.description = self.content.properties.meta.description;
+                $rootScope.meta.og.image = self.content.properties.meta.image;
+                $rootScope.meta.og.permalink = self.content.properties.meta.permalink;
               }
 
             })
