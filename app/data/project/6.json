@@ -6,7 +6,7 @@
     "link": "/projects/6",
     "name": "Initiative for Responsible Mining Assurance",
     "description": "The answer to global demand for more socially and environmentally responsible mining.",
-    "body": "<p>The Initiative for Responsible Mining Assurance was incorporated as a 501c3 in 2018. Their goal was to bring their Self Assessment working document out of paper into a globally accessible web application.</p><p>As part of the Viable team I designed a system that allowed for the growth of the Self Assessment with an API-first approach that enables them to add and modify the chapters, questions, and help material that make up the assessment.</p><p>To help them showcase the companies taking part in the Self Assessment, I designed a map that allows each company to show or hide specific company information and share the geographic area they work in.</p>",
+    "body": "<p>The Initiative for Responsible Mining Assurance incorporated as a 501c3 in 2018 to bring their Self Assessment working document out of paper into a globally accessible web application.</p><p>As part of the Viable team, I designed a system that allowed for the growth of the Self Assessment with an API-first approach that enables them to add and modify the chapters, questions, and help material that makes up the assessment.</p><p>To help them showcase the companies taking part in the Self Assessment, I designed a map that allows each company to show or hide specific company information and share the geographic area in which they work.</p>",
     "expertise": "UI Design and Development",
     "deliverables": "Self Assessment Platform, Web Map, and API",
     "timeline": "2018-Present",
