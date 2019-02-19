@@ -6,7 +6,7 @@
     "link": "/projects/4",
     "name": "FieldDoc",
     "description": "Saving and sustaining our fish, wildlife, plants, and habitats for this generation and the next.",
-    "body": "<p>After our <a href=\"/projects/3\">Water Reporter</a> app being named the 2013 501cTech Technology Impact Award Winner, I was invited to participate in the planning of a new Conservation Project Tracking tool.</p><p>I partnered with the National Fish and Wildlife Foundation, a friend, and a scientist from Virginia Tech to plan, design, and implement a new quantiative environmental project metrics tool.</p><p>I led the team through the design and API-first development process. The API-first approach allowed the Foundation to onboard additional grant-making organizations like the Maryland Department of Natural Resources and Delaware River Watershed Initiative.</p>",
+    "body": "<p>After our <a href=\"/projects/3\">Water Reporter</a> app being named the 2013 501cTech Technology Impact Award Winner, I was invited to participate in the planning of a new Conservation Project Tracking tool.</p><p>I partnered with the National Fish and Wildlife Foundation, a friend, and a scientist from Virginia Tech to plan, design, and implement a new quantitative environmental project metrics tool.</p><p>I led the team through the design and API-first development process. The API-first approach allowed the Foundation to onboard additional grant-making organizations like the Maryland Department of Natural Resources and Delaware River Watershed Initiative.</p>",
     "expertise": "UI Design and Development",
     "deliverables": "Quantiative Conservation Project Metric Tool",
     "timeline": "2014-Present",
