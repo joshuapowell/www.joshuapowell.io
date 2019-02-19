@@ -33,13 +33,13 @@
               $log.log('self.content', self.content);
 
               $rootScope.meta = {
-                "title": self.content.properties.meta.title,
-                "description": self.content.properties.meta.description,
+                "title": self.content.properties.meta.title ? self.content.properties.meta.title : "",
+                "description": self.content.properties.meta.description ? self.content.properties.meta.description : "",
                 "og": {
-                  "title": self.content.properties.meta.title,
-                  "description": self.content.properties.meta.description,
-                  "image": self.content.properties.meta.image,
-                  "permalink": self.content.properties.meta.permalink
+                  "title": self.content.properties.meta.title ? self.content.properties.meta.title : "",
+                  "description": self.content.properties.meta.description ? self.content.properties.meta.description : "",
+                  "image": self.content.properties.meta.image ? self.content.properties.meta.image : "",
+                  "permalink": self.content.properties.meta.permalink ? self.content.properties.meta.permalink : ""
                 }
               }
 
