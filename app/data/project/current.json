@@ -5,7 +5,7 @@
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "Organic, small-scale four season indoor farming",
+        "name": "Organic, small-scale four-season indoor farming",
         "description": "Experimenting with indoor growing methods, how technology can interface to increase crop yields, and applying outdoor-growing concepts."
       }
     },
@@ -14,7 +14,7 @@
       "geometry": null,
       "properties": {
         "name": "Open source location based API gateway",
-        "description": "Expanding an open source location based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
+        "description": "Expanding an open source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
       }
     },
     {
@@ -22,7 +22,7 @@
       "geometry": null,
       "properties": {
         "name": "Adventure-style game called Dark Cedars",
-        "description": "Premise: You join a group of loggers on a expedition to harvest 6 rare trees that hold a dark secret. Will you make it out?"
+        "description": "Premise: You join a group of loggers on an expedition to harvest six rare trees that hold a dark secret. Will you make it out?"
       }
     },
     {
