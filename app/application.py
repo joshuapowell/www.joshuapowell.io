@@ -17,6 +17,9 @@ under the License.
 """
 
 
+import sys
+
+
 from . import cube
 from . import flask
 from . import logger
@@ -78,6 +81,8 @@ class Application(object):
         """
         if 'build' in environment:
             cube.freeze()
+            sys.exit()
+
 
         logger.info('StaticVI completed loading')
 
