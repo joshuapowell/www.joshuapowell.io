@@ -1,0 +1,12 @@
+{
+  "DEBUG": false,
+  "USE_RELOADER": false,
+  "TESTING": false,
+
+  "FLATPAGES_EXTENSION": ".md",
+
+  "FREEZER_DESTINATION": "../dist",
+  
+  "FREEZER_IGNORE_404_NOT_FOUND": false,
+  "FREEZER_SKIP_EXISTING": false
+}

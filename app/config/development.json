@@ -1,0 +1,8 @@
+{
+  "DEBUG": true,
+  "USE_RELOADER": true,
+  "TESTING": false,
+
+  "FLATPAGES_AUTO_RELOAD": true,
+  "FLATPAGES_EXTENSION": ".md"
+}

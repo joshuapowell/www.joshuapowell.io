@@ -1,0 +1,93 @@
+/**
+ * _animate.scss
+ *
+ * @description
+ *    v3.0.3 | MIT License | github.com/necolas/normalize.css
+ *
+ * @overview
+ *    This stylesheet is written in SASS(1) and compiles all of the styles
+ *    we use throughout the site.
+ *
+ * @see (1) http: *sass-lang.com/documentation/file.SASS_REFERENCE.html
+ */
+
+
+@-webkit-keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+
+   to {
+     opacity: 1;
+   }
+}
+
+@keyframes fadeIn {
+   from {
+     opacity: 0;
+   }
+
+   to {
+     opacity: 1;
+   }
+}
+
+@-webkit-keyframes fadeIn90 {
+   from {
+     opacity: 0;
+   }
+
+   to {
+     opacity: 0.9;
+   }
+}
+
+@keyframes fadeIn90 {
+   from {
+     opacity: 0;
+   }
+
+   to {
+     opacity: 0.9;
+   }
+}
+
+@-webkit-keyframes fadeOut {
+   from {
+     opacity: 1;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
+@keyframes fadeOut {
+   from {
+     opacity: 1;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
+@-webkit-keyframes fadeOut90 {
+   from {
+     opacity: 0.9;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
+
+@keyframes fadeOut90 {
+   from {
+     opacity: 0.9;
+   }
+
+   to {
+     opacity: 0;
+   }
+}
