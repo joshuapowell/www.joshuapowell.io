@@ -112,6 +112,11 @@ class Application(object):
 
             return render_template(template, page=page)
 
+        @app.route('/offline.js', methods=['GET'])
+        def sw():
+            print("something")
+            return app.send_static_file('js/service-worker.js')
+
         @app.route('/<path:path>/', methods=['GET'])
         def core_page_get(path):
             """Dynamically routed (you-name-it) pages.

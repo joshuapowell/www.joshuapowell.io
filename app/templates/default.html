@@ -41,8 +41,11 @@
 
     <title>{{ page.title }}</title>
     
-    <!-- Commons Cloud -->
     <link href="/static/css/main.css" rel="stylesheet" type="text/css" />
+
+    <link href="/static/images/favicon.png" type="image/x-icon" rel="icon" />
+    <link href="/static/images/favicon.png" type="image/x-icon" rel="shortcut icon" />
+    <link rel="apple-touch-icon" href="/static/images/favicon.png" />
 
   </head>
 
@@ -107,13 +110,29 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <p>
-              Copyright © 1984-2018 Joshua Powell, Pittsburgh, PA. All rights reserved.
+              Copyright &copy; 2019 Joshua Powell, Pittsburgh, PA. All rights reserved.
             </p>
           </div>
         </div>
       </footer>
     </div>
         
+    <script>
+      if ('serviceWorker' in navigator) {
+        console.log('CLIENT: service worker registration in progress.');
+        navigator.serviceWorker.register('/offline.js').then(
+          function() {
+            console.log('CLIENT: service worker registration complete.');
+          },
+          function() {
+            console.log('CLIENT: service worker registration failure.');
+          }
+        );
+      }
+      else {
+        console.log('CLIENT: service worker is not supported.');
+      }
+    </script>
   </body>
 
 </html>
