@@ -100,14 +100,6 @@ current: {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "Organic, small-scale four-season indoor farming",
-        "description": "Experimenting with indoor growing methods, how technology can interface to increase crop yields, and applying outdoor-growing concepts."
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
         "name": "Open source location based API gateway",
         "description": "Expanding an open source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
       }
