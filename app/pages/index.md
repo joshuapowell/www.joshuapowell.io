@@ -120,7 +120,7 @@ current: {
       "properties": {
         "icon": "☁️",
         "name": "Connecting microcontrollers and sensors to the cloud",
-        "description": "I'm programming microcontrollers to transmit simple sensor data to cloud data APIs and user interfaces"
+        "description": "I'm programming microcontrollers to transmit simple sensor data to cloud data APIs and user interfaces."
       }
     }
   ]
