@@ -100,7 +100,8 @@ current: {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "💾 Designing Network + Security Software",
+        "icon": "💾",
+        "name": "Designing Network + Security Software",
         "description": "Designing enterprise-grade network and security software for IBM Z mainframe server technologies."
       }
     },
@@ -108,7 +109,8 @@ current: {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "📍 Open source location based API gateway",
+        "icon": "📍",
+        "name": "Open source location based API gateway",
         "description": "Expanding an open source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
       }
     },
@@ -116,7 +118,8 @@ current: {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "☁️ Connecting microcontrollers and sensors to the cloud",
+        "icon": "☁️",
+        "name": "Connecting microcontrollers and sensors to the cloud",
         "description": "I'm programming microcontrollers to transmit simple sensor data to cloud data APIs and user interfaces"
       }
     }
