@@ -100,16 +100,16 @@ current: {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "Open source location based API gateway",
-        "description": "Expanding an open source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
+        "name": "Designing Newtork Security Software",
+        "description": "Designing enterprise grade network and security software for mainframe technologies."
       }
     },
     {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "Adventure-style game called Dark Cedars",
-        "description": "Premise: You join a group of loggers on an expedition to harvest six rare trees that hold a dark secret. Will you make it out?"
+        "name": "Open source location based API gateway",
+        "description": "Expanding an open source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
       }
     },
     {
@@ -169,4 +169,4 @@ dream: {
 }
 
 
-You're now running the CommonsCloud Static Site Generator and Development Server on your local computer.
+...
