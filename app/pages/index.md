@@ -100,7 +100,7 @@ current: {
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "name": "Designing Newtork Security Software",
+        "name": "Designing Network Security Software",
         "description": "Designing enterprise grade network and security software for mainframe technologies."
       }
     },
