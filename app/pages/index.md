@@ -144,7 +144,7 @@ dream: {
       "properties": {
         "number": 2,
         "name": "IoT/IIoT",
-        "description": "Connected devices, devices with cloud data, mesh networks, and radio data transmission."
+        "description": "Connected devices, devices with cloud data, mesh networks, and radio data transmission.",
         "example": ""
       }
     },
