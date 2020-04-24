@@ -134,7 +134,7 @@ dream: {
       "properties": {
         "number": 1,
         "name": "Cloud",
-        "description": "Developer tools. Cloud platforms. Open-source.",
+        "description": "Design for developer tools, cloud platforms, open-source, security, networking, and infrastructure.",
         "example": ""
       }
     },
@@ -143,8 +143,8 @@ dream: {
       "geometry": null,
       "properties": {
         "number": 2,
-        "name": "Internet of Things",
-        "description": "Connected devices. Devices with Cloud Data. Mesh Networks. Using HAM-style Radio to Transmit Data.",
+        "name": "IoT/IIoT",
+        "description": "Connected devices, devices with cloud data, mesh networks, and radio data transmission."
         "example": ""
       }
     },
@@ -154,7 +154,7 @@ dream: {
       "properties": {
         "number": 4,
         "name": "Environment",
-        "description": "Open source environmental solutions. Technology and environmental conservation.",
+        "description": "Open source environmental solutions, technology-powered environmental conservation.",
         "example": ""
       }
     },
@@ -164,7 +164,7 @@ dream: {
       "properties": {
         "number": 2,
         "name": "Automotive",
-        "description": "Autonomous Vehicle UI/UX. Automotive Connected Dashboards. Connected-Vehicle Cloud.",
+        "description": "Autonomous Vehicle UI/UX, connected automotive dashboards, connected-vehicle cloud.",
         "example": ""
       }
     }
