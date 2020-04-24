@@ -110,8 +110,8 @@ current: {
       "geometry": null,
       "properties": {
         "icon": "📍",
-        "name": "Open source location based API gateway",
-        "description": "Expanding an open source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
+        "name": "Open-source location-based API gateway",
+        "description": "Expanding an open-source location-based data API into a platform. I'm currently writing technical documentation and planning the future of the platform."
       }
     },
     {
