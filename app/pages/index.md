@@ -133,19 +133,9 @@ dream: {
       "geometry": null,
       "properties": {
         "number": 1,
-        "name": "AgTech",
-        "description": "Connected farming devices. Weather sensors. Soil and moisture monitoring.",
-        "example": "Examples: FreightFarms, Bowery, AeroFarms"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "number": 2,
-        "name": "Automotive",
-        "description": "Autonomous Vehicle UI/UX. Automotive Connected Dashboards. Connected-Vehicle Cloud.",
-        "example": "Examples: Uber, Argo, Mapbox"
+        "name": "Cloud",
+        "description": "Developer tools. Cloud platforms. Open-source.",
+        "example": ""
       }
     },
     {
@@ -155,7 +145,7 @@ dream: {
         "number": 2,
         "name": "Internet of Things",
         "description": "Connected devices. Devices with Cloud Data. Mesh Networks. Using HAM-style Radio to Transmit Data.",
-        "example": "Examples: Fitbit, Nest, Edyn, "
+        "example": ""
       }
     },
     {
@@ -165,7 +155,17 @@ dream: {
         "number": 4,
         "name": "Environment",
         "description": "Open source environmental solutions. Technology and environmental conservation.",
-        "example": "Examples: Patagonia, REI, Sea Shepherd"
+        "example": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "number": 2,
+        "name": "Automotive",
+        "description": "Autonomous Vehicle UI/UX. Automotive Connected Dashboards. Connected-Vehicle Cloud.",
+        "example": ""
       }
     }
   ]
