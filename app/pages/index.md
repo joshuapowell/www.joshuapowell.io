@@ -1,5 +1,5 @@
-title: "Human Data Interaction Designer with a focus on SaaS and APIs"
-page_description: "Joshua Powell is a human data interaction designer creating software as a service products and APIs based in Pittsburgh, PA"
+title: "Designer and Manager, Engineer of Software &amp; APIs"
+page_description: "Joshua Powell is a designer, engineer, and manager creating API-driven software in Pittsburgh, PA"
 page_image: "https://www.joshuapowell.io/static/images/logo.png"
 date: 2012-03-04
 path: "index"
