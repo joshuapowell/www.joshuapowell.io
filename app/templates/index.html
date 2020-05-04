@@ -6,17 +6,17 @@
 
 <article class="front">
   <header>
-    <div class="row">
+    <div class="row center-xs">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <h1>
           👋 Hello there
         </h1>
       </div>
     </div>
-    <div class="row lead">
+    <div class="row lead center-xs">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <p>
-          I'm Joshua Powell, a designer and technologist. I have ten years of experience building and leading teams responsible for the architecture, design, and engineering of development products and distributed systems. 
+          I'm Joshua Powell, a designer and technologist. I have ten years of experience building and leading teams responsible for the architecture, design, and engineering of development software products and distributed systems. 
         </p>
         <p>
           I was most recently a User Experience Manager for Honeywell Robotics. Our work focused on designing interfaces and systems for industrial AI, robotics, and voice products. I served as Director of a digital creative studio for six years and before that Director of small digital consultancy.
@@ -27,112 +27,6 @@
       </div>
     </div>
   </header>
-
-  <section class="front--projects">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <h1>
-          Current -
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      {% for project in page.current.features %}
-      <div class="projects col-xs-12 col-sm-6 col-md-3 col-lg-3">
-        <h2 class="project--title">
-          {{ project.properties.name }}
-        </h2>
-        <p class="project--description">
-          {{ project.properties.description | safe }}
-        </p>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="front--projects">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <h1>
-          Recent -
-        </h1>
-        <p>
-          If you're interested in the design systems, information architecture,
-          or user interface exploration that went into these projects,
-          <a href="mailto:joshuaisaacpowell@gmail.com">
-            I can provide details on an as-needed basis via email</a>.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      {% for project in page.projects.features %}
-      <div class="projects col-xs-12 col-sm-4 col-md-4 col-lg-3">
-        <a href="{{ project.properties.link }}"
-            class="project--photo"
-            aria-label="Link to the {{ project.properties.name }} project detail page">
-            <img src="{{ project.properties.image }}" alt="Image for {{ project.properties.name }}" title="Image for {{ project.properties.name }}"
-                width="100%" />
-            
-        </a>
-        <h2>
-          <a href="{{ project.properties.link }}"
-              class="project--title"
-              aria-label="Link to the {{ project.properties.name }} project detail page">
-            {{ project.properties.name }}
-          </a>
-        </h2>
-        <p class="project--description">
-          {{ project.properties.description }}
-        </p>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="front--projects">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <h1>
-          Dream Projects -
-        </h1>
-        <p>
-          I love to help people design user experiences around data, but I'd
-          jump at the chance to work on:
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      {% for project in page.dream.features %}
-        <div class="projects col-xs-12 col-sm-12 col-md-3 col-lg-3">
-          <h2 class="project--title">
-            {{ project.properties.name }}
-          </h2>
-          <p class="project--description">
-              {{ project.properties.description | safe }}
-          </p>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="front--cta">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <h1>
-          Need help?
-        </h1>
-      </div>
-    </div>
-    <div class="row lead">
-      <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-        <p>
-          If you have a design system, platform, or API-based project that you are
-          interested in starting and need an experienced product designer or API
-          specialist, <a href="mailto:joshuaisaacpowell@gmail.com" aria-label="Send me an email">send me an email</a>.
-        </p>
-      </div>
-    </div>
-  </section>
 
 </article>
 
