@@ -12,8 +12,7 @@
  * @see (1) http: *sass-lang.com/documentation/file.SASS_REFERENCE.html
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,500');
-@import url('https://use.typekit.net/iok8his.css');
+@import url('https://use.typekit.net/thr6vmy.css');
 
 @import url("_animate.css") screen;
 @import url("_content.css") screen;
@@ -31,7 +30,7 @@
 
     --grid-container-margins: 0;
     
-    --font--mono: 'Roboto Mono', monospace;
+    --font--mono: monospace;
     --font--sans: aktiv-grotesk, sans-serif;
     --font--serif: times, serif;    
 }
