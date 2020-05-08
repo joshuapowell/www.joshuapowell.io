@@ -1,4 +1,4 @@
-title: "Designer and Manager, Engineer of Software &amp; APIs"
+title: "Designer and Manager, Engineer of Software & APIs"
 page_description: "Joshua Powell is a designer, engineer, and manager creating API-driven software in Pittsburgh, PA"
 page_image: "https://www.joshuapowell.io/static/images/logo.png"
 date: 2012-03-04
