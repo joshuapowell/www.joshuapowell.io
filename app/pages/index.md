@@ -164,7 +164,7 @@ dream: {
       "properties": {
         "number": 2,
         "name": "Automotive",
-        "description": "Autonomous Vehicle UI/UX, connected automotive dashboards, connected-vehicle cloud.",
+        "description": "Autonomous Vehicle UI/UX, HMI, connected dashboards, connected-vehicle cloud",
         "example": ""
       }
     }
