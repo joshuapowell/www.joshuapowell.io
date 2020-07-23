@@ -2,7 +2,8 @@
  * _global.scss
  *
  * @description
- *    v3.0.3 | MIT License | github.com/necolas/normalize.css
+ *    The global stylesheet helps us define global box-sizing and body styles
+ *    for the entire site.
  *
  * @overview
  *    This stylesheet is written in SASS(1) and compiles all of the styles

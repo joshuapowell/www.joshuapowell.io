@@ -4,5 +4,7 @@
   "TESTING": false,
 
   "FLATPAGES_AUTO_RELOAD": true,
-  "FLATPAGES_EXTENSION": ".md"
+  "FLATPAGES_EXTENSION": ".md",
+
+  "GOOGLE_SITE_VERIFICATION": ""
 }

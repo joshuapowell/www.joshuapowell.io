@@ -6,13 +6,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
     <meta name="robots" content="{% if page.robots %}{{ page.robots }}{% else: %}{{ 'index,follow,archive' }}{% endif %}" />
 
-    <meta name="google-site-verification" content="{{ google_site_verification }}" />
+    <meta name="google-site-verification" content="{{ page.google_site_verification }}" />
 
     <meta name="author" content="{{ page.page_author }}" />
     <meta name="description" content="{{ page.page_description }}" />
@@ -54,30 +54,38 @@
   <body class="{{ page.page_class }}">
 
     <!--Site Header-->
-    {% if page.path != 'index' %}
     <div class="container-fluid">
       <header class="siteHeader">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="transmission">
-              <a href="/"
-                 class="mark">
-                <span class="caret caret--left"></span> Return
-              </a>
-    
-              <div class="proverb mark">
-                <div class="mannaz"></div>
-                <div class="naupiz"></div>
-                <div class="inguz"></div>
-                <div class="ansuz"></div>
-              </div>
-            </div>
-          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <nav class="transmission">
+              <ul>
+                <li>
+                  <a href="/" class="mark">
+                    Joshua Powell
+                  </a>
+                </li>
+                <li>
+                  <a href="/work">
+                    Work
+                  </a>
+                </li>
+                <li>
+                  <a href="/about">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="/contact">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
         </div>
     
       </header>
     </div>
-    {% endif %}
         
     <main class="container-fluid container-enter container-front">
       {% block content %}{% endblock %}
@@ -95,7 +103,7 @@
       </footer>
     </div>
         
-    <script>
+    <!-- <script>
       if ('serviceWorker' in navigator) {
         console.log('CLIENT: service worker registration in progress.');
         navigator.serviceWorker.register('/offline.js').then(
@@ -110,7 +118,7 @@
       else {
         console.log('CLIENT: service worker is not supported.');
       }
-    </script>
+    </script> -->
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108815253-1"></script>
     <script>

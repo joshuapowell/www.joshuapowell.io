@@ -2,10 +2,9 @@
  * _layout.scss
  *
  * @description
- *    The variables stylesheet helps us define styles that can be used over and
- *    over again throughout the entire site. It helps us define items that occur
- *    multiple times throughout the site, just once, that way we aren't
- *    repeating ourselves.
+ *    The layout stylesheet helps us determine styles that can be used over and
+ *    over again throughout the entire site for page layout and placement of
+ *    content.
  *
  * @overview
  *    This stylesheet is written in SASS(1) and compiles all of the styles
