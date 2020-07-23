@@ -9,6 +9,7 @@ optimization: {
 }
 date: 2020-07-23
 path: "projects"
+template: "project-archive.html"
 content: {
   "geometry": null,
   "type": "Feature",

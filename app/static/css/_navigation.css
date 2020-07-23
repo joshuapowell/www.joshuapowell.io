@@ -20,6 +20,8 @@
 
 nav.navigation-primary ul {
      list-style: none;
+     margin: 0rem;
+     padding: 0rem;
 }
 
 nav.navigation-primary ul li {
@@ -27,6 +29,7 @@ nav.navigation-primary ul li {
     font-weight: 400;
     list-style-type: none;
     margin-left: 2rem;
+    padding: 0rem;
 }
 
 nav.navigation-primary ul li:first-child {
