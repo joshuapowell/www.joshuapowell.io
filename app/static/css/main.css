@@ -2,27 +2,39 @@
  * main.scss
  *
  * @description
- *    The typography stylesheet helps us define styles that handle the
- *    appearance and positioning of the type used throughtout the site
+ *    The `main.css` stylesheet acts as a initialization file, importing
+ *    typefaces, globally used styles, and setting core variables for the
+ *    website;
  *
  * @overview
- *    This stylesheet is written in SASS(1) and compiles all of the styles
- *    we use throughout the site.
+ *    This stylesheet is written in CSS and does not use a CSS precompiler.
  *
- * @see (1) http: *sass-lang.com/documentation/file.SASS_REFERENCE.html
  */
 
 @import url('https://use.typekit.net/thr6vmy.css');
 
+
+/**
+ * Import globally used styles.
+ *
+ * Following standard CSS @import logic and going a step further by defining
+ * the media type[1] that this stylesheet is intended for.
+ *
+ * @see (1) https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/\
+ *              Using_media_queries#Media_types
+ */
 @import url("_animate.css") screen;
 @import url("_content.css") screen;
 @import url("_global.css") screen;
 @import url("_layout.css") screen;
 @import url("_table.css") screen;
 @import url("_typography.css") screen;
+@import url("_navigation.css") screen;
 
+/**
+ * Define global CSS variables to be used throughout the website.
+ */
 :root {
-
     --color--blue: #005ae4;
     --color--black: #1B282F;
     --color--gold: #FFB300;
@@ -32,5 +44,5 @@
     
     --font--mono: monospace;
     --font--sans: aktiv-grotesk, sans-serif;
-    --font--serif: times, serif;    
+    --font--serif: calluna, times, serif;    
 }

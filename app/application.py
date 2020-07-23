@@ -110,7 +110,10 @@ class Application(object):
 
             template = page.meta.get('template', 'index.html')
 
-            return render_template(template, page=page)
+            developer_mode = self.app.config.get('DEBUG') if 'DEBUG' in \
+                              self.app.config else False
+
+            return render_template(template, page=page, developer_mode=developer_mode)
 
         @app.route('/offline.js', methods=['GET'])
         def sw():

@@ -54,38 +54,35 @@
   <body class="{{ page.page_class }}">
 
     <!--Site Header-->
-    <div class="container-fluid">
-      <header class="siteHeader">
-        <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-            <nav class="transmission">
-              <ul>
-                <li>
-                  <a href="/" class="mark">
-                    Joshua Powell
-                  </a>
-                </li>
-                <li>
-                  <a href="/work">
-                    Work
-                  </a>
-                </li>
-                <li>
-                  <a href="/about">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a href="/contact">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </nav>
-        </div>
-    
-      </header>
-    </div>
+    <header class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <nav class="navigation--primary">
+            <ul>
+              <li>
+                <a href="/">
+                  Joshua Powell
+                </a>
+              </li>
+              <li>
+                <a href="/work">
+                  Work
+                </a>
+              </li>
+              <li>
+                <a href="/about">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+      </div>
+    </header>
         
     <main class="container-fluid container-enter container-front">
       {% block content %}{% endblock %}
@@ -102,8 +99,9 @@
         </div>
       </footer>
     </div>
-        
-    <!-- <script>
+    
+    {% if not developer_mode %}
+    <script>
       if ('serviceWorker' in navigator) {
         console.log('CLIENT: service worker registration in progress.');
         navigator.serviceWorker.register('/offline.js').then(
@@ -118,7 +116,7 @@
       else {
         console.log('CLIENT: service worker is not supported.');
       }
-    </script> -->
+    </script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108815253-1"></script>
     <script>
@@ -128,6 +126,7 @@
 
       gtag('config', 'UA-108815253-1');
     </script>
+    {% endif %}
 
   </body>
 

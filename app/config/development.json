@@ -1,4 +1,6 @@
 {
+  "ENV": "development",
+  
   "DEBUG": true,
   "USE_RELOADER": true,
   "TESTING": false,
