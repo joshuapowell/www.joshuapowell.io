@@ -5,11 +5,7 @@
  *    The global stylesheet helps us define global box-sizing and body styles
  *    for the entire site.
  *
- * @overview
- *    This stylesheet is written in SASS(1) and compiles all of the styles
- *    we use throughout the site.
- *
- * @see (1) http: *sass-lang.com/documentation/file.SASS_REFERENCE.html
+ *    This stylesheet is written in CSS and does not use a CSS precompiler.
  */
 
 

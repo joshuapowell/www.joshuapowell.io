@@ -41,11 +41,11 @@
   min-height: 50vh;
 }
 
-.row--item--vertical-center{
+.row-item-vertical-center{
   align-self: center;
 }
 
-.row--all--vertical-center{
+.row-all-vertical-center{
   align-items: center;
 }
 
