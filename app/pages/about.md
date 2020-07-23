@@ -1,4 +1,4 @@
-title: "Home Page"
+title: "About Page"
 optimization: {
     "title": "",
     "description": "",
@@ -10,4 +10,4 @@ optimization: {
 date: 2020-07-23
 path: "about"
 
-Index Page
+About Page

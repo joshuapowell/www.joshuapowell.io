@@ -1,9 +1,14 @@
-title: "Project Archive"
-page_description: ""
-page_image: ""
-date: 2020-07-01
-template: "project-archive.html"
-path: "projects/archive"
+title: "Project Archive Page"
+optimization: {
+    "title": "",
+    "description": "",
+    "image": "",
+    "url": "",
+    "author": "",
+    "robots": ""
+}
+date: 2020-07-23
+path: "projects"
 content: {
   "geometry": null,
   "type": "Feature",
