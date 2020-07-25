@@ -4,10 +4,76 @@
 
 {% block content %}
 
-<h1>{{ page.title }}</h1>
+<section class="row">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h3>
+      {{ page.content.properties.project_name }}
+    </h3>
 
-<article>
-  {{ page.html | safe }}
-</article>
+    <h1>
+      {{ page.content.properties.project_lead }}
+    </h1>
+
+    <ul>
+      {% for _outcome in page.content.properties.outcomes %}
+      <li>
+        <a href="{{ page.path }}#{{ _outcome.properties.url }}" role="link" title="{{ _outcome.properties.accessibility.link_title }}">
+          {{ _outcome.properties.short_name }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <a href="{{ page.path }}#Overview" role="link" title="">
+      scroll
+    </a>
+    <img src="{{ page.content.properties.project_lead_image }}" alt="" title="" />
+  </div>
+</section>
+
+<section class="row" id="Overview">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h2>
+      Background
+    </h2>
+
+    {{ page.content.properties.background | safe }}
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h3>
+      Platform
+    </h3>
+    <ul>
+      {% for _platform in page.content.properties.platforms %}
+      <li>
+        {{ _platform.properties.name }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h3>
+      Role
+    </h3>
+    <ul>
+      {% for _role in page.content.properties.roles %}
+      <li>
+        {{ _role.properties.name }}
+      </li>
+      {% endfor %}
+    </ul>
+
+    <h3>
+      Collaborators
+    </h3>
+    <ul>
+      {% for _collaborator in page.content.properties.collaborators %}
+      <li>
+        {{ _collaborator.properties.name }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
 
 {% endblock %}
