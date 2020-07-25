@@ -11,7 +11,7 @@
  *
  */
 
-@import url('https://use.typekit.net/thr6vmy.css');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,300;0,500;1,300;1,500&display=swap");
 
 
 /**
@@ -42,7 +42,7 @@
 
     --grid-container-margins: 0;
     
-    --font--mono: monospace;
-    --font--sans: aktiv-grotesk, sans-serif;
-    --font--serif: calluna, times, serif;    
+    --font--mono: "Roboto Mono", monospace;
+    --font--sans: "Inter", sans-serif;
+    --font--serif: "Times New Roman", "Times", serif;    
 }
