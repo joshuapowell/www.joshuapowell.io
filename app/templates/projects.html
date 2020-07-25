@@ -1,0 +1,95 @@
+{% extends 'default.html' %}
+
+{% set page = page %}
+
+{% block content %}
+
+<header class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h1>
+      {{ page.title }}
+    </h1>
+  </div>
+</header>
+
+<section class="projects">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      AI and NLP
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      Voice
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      Water Reporter
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      Field Doc
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      Snapology
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      ---
+    </div>
+  </div>
+</section>
+
+<section class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <h2>
+      {{ page.content.properties.name }}
+    </h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Project</th>
+          <th>Partner(s)</th>
+          <th>Category</th>
+          <th>Role</th>
+          <th>Link</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for project in page.content.properties.projects %}
+          <tr>
+            <td>
+              {{ project.properties.year }}
+            </td>
+            <td>
+              {{ project.properties.project_title }}
+            </td>
+            <td>
+              {% for _partner in  project.properties.partners %}
+                {{ _partner.properties.partner_name }}{% if loop.length > 1 and not loop.last %},{% endif %}
+              {% endfor %}
+            </td>
+            <td>
+              {% for _category in  project.properties.categories %}
+                {{ _category.properties.category_name }}{% if loop.length > 1 and not loop.last %},{% endif %}
+              {% endfor %}
+            </td>
+            <td>
+              {{ project.properties.role }}
+            </td>
+            <td>
+              {% for _link in project.properties.links %}
+                <a href="{{ _link.properties.link_url }}" 
+                  rel="nofollow" 
+                  title="{{ _link.properties.link_title }}"
+                  target="_blank">
+                  {{ _link.properties.link_name }}
+                </a>{% if loop.length > 1 and not loop.last %}, {% endif %}
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>    
+
+{% endblock %}
