@@ -1,4 +1,4 @@
-title: "Project Archive Page"
+title: "Project Page"
 optimization: {
     "title": "",
     "description": "",
@@ -9,7 +9,7 @@ optimization: {
 }
 date: 2020-07-23
 path: "projects"
-template: "project-archive.html"
+template: "projects.html"
 content: {
   "geometry": null,
   "type": "Feature",
