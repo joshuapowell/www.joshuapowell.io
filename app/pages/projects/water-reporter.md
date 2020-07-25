@@ -15,9 +15,10 @@ content: {
     "geometry": null,
     "properties": {
         "project_name": "Water Reporter",
-        "project_lead": "How I helped Chesapeake Commons turn a neglected form into a platform for saving the environment",
-        "project_lead_image": "",
-        "background": "<p>&ldquo;<em class=\"highlight\">How can we get staff and volunteers to communicate more so we can get more done?&rdquo;</em> John, the Executive Director of Chespeake Commons asked me.</p><p>At the time, the Commons&rsquo; partner organizations required volunteers to communicate and submit environmental reports via a web form or an email. John wanted to explore how a mobile app could improve communication.</p><p>We discovered three main challenges during our research that had the potential to increase the teams&rsquo; effectiveness.</p>",
+        "project_lead": "How I turned a neglected form into a platform for saving the environment",
+        "project_lead": "Designing a platform for saving waterways",
+        "project_lead_image": "/static/images/project-waterreporter-lead@2x.png",
+        "background": "<p><em class=\"highlight\">&ldquo;How can we get staff and volunteers to communicate more so we can get more done?&rdquo;</em> John, the Executive Director of Chespeake Commons asked me.</p><p>At the time, the Commons&rsquo; partner organizations required volunteers to communicate and submit environmental reports via a web form or an email. John wanted to explore how a mobile app could improve communication.</p><p>Through a combination of design thinking workshops, contextual interviews, and fly-on-the-wall studies I discovered three main challenges that had the potential to increase the teams&rsquo; effectiveness.</p>",
         "platforms": [
             {
                 "type": null,
@@ -69,14 +70,7 @@ content: {
                 "properties": {
                     "name": "Interaction Design"
                 }
-            },
-            {
-                "type": null,
-                "geometry": null,
-                "properties": {
-                    "name": "Engineering"
-                }
-            }          
+            }         
         ],
         "collaborators": [
             {
@@ -261,8 +255,8 @@ content: {
                 }
             }          
         ],
-        "process": "",
-        "timeline": "",
+        "process": "<p>I started by learning who contributed and how they interacted with these organizations. After talking with volunteers, it became apparent that most carried smartphones and wanted to use them more at work. I created paper prototypes for a mobile app, testing them with volunteers. I weeded out potential traps and learned more about users' day-to-day work. I took these findings and created an interactive iOS prototype, testing it with twenty volunteers.</p><p>The approach changed a lot as the project moved from being a proof-of-concept app into a platform consisting of multiple applications.</p>",
+        "timeline": "<p>Over the next 5 years, I worked on this project and delivered</p><ul><li>12 major releases for iOS</li><li>An initial version and handoff for Android</li><li>A web-based community application</li><li>A web-based management application</li><li>API-first infrastructure</li></ul>",
         "previous_link": "",
         "next_link": ""
     }

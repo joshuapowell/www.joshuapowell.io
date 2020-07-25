@@ -29,27 +29,51 @@ h6 {
 }
 
 h1 {
-  font-family: var(--font--sans);
+  font-family: var(--font--serif);
   font-size: 3.25em;
-  font-weight: 500;
+  font-weight: 200;
   margin: 0 0 0.5em;
 }
 
 h2 {
   font-family: var(--font--sans);
+  font-size: 1.6875rem;
+  font-weight: 600;
+  line-height: 2.53125rem;
+  margin: 0 0 1rem;
+}
+
+h3 {
+  font-family: var(--font--sans);
+  font-size: 1.3125rem;
+  font-weight: 600;
+  line-height: 1.6875rem;
+  margin: 0 0 1rem;
+}
+
+h4 {
+  font-family: var(--font--sans);
   font-size: 1em;
   font-weight: 500;
-  margin: 0 0 0.5em;
+  line-height: 1.6875rem;
+  margin: 0 0 1rem;
 }
 
 p {
-  font-size: 0.875em;
+  font-family: var(--font--mono);
+  font-size: 1em;
   font-weight: 300;
-  margin: 0 0 1em;
+  line-height: 1.6875rem;
+  margin: 0 0 1.6875rem;
 }
 
 p.inline {
   display: inline-block;
+}
+
+p em.highlight {
+  background-color: var(--color--highlight);
+  font-style: normal;
 }
 
 .lead p {
@@ -58,13 +82,16 @@ p.inline {
 }
 
 ul, ol {
-    text-align: left;
+  margin: 0 0 1.6875rem;
+  text-align: left;
 }
 
 ol li,
 ul li {
-  font-size: 1rem;
-  font-weight: normal;
+  font-family: var(--font--mono);
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6875rem;
   text-align: left;
 }
 

@@ -11,7 +11,7 @@
  *
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,300;0,500;1,300;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:ital,wght@0,300;0,500;1,300;1,500&family=Lora&display=swap");
 
 
 /**
@@ -37,12 +37,11 @@
 :root {
     --color--blue: #005ae4;
     --color--black: #1B282F;
-    --color--gold: #FFB300;
-    --color--sienna: #FC6207;
+    --color--highlight: #F5EF50;
 
     --grid-container-margins: 0;
     
     --font--mono: "Roboto Mono", monospace;
-    --font--sans: "Inter", sans-serif;
-    --font--serif: "Times New Roman", "Times", serif;    
+    --font--sans: "Inter", "Helvetica", "Arial", sans-serif;
+    --font--serif: "Lora", "Times New Roman", "Times", serif;    
 }

@@ -10,4 +10,22 @@
  *    This stylesheet is written in CSS and does not use a CSS precompiler.
  */
 
+/**
+ * Layout modifications
+ */
+ section.section-break {
+    margin-bottom: 16rem;
+}
 
+/**
+ * Footer modifications
+ */
+.site-footer.container-fluid {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.site-footer.container-fluid p {
+    font-size: 0.75rem;
+}

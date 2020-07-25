@@ -4,11 +4,11 @@
 
 {% block content %}
 
-<section class="row">
+<section class="row section-break">
   <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
-    <h3>
+    <h4>
       {{ page.content.properties.project_name }}
-    </h3>
+    </h4>
 
     <h1>
       {{ page.content.properties.project_lead }}
@@ -17,22 +17,29 @@
     <ul>
       {% for _outcome in page.content.properties.outcomes %}
       <li>
-        <a href="{{ page.path }}#{{ _outcome.properties.url }}" role="link" title="{{ _outcome.properties.accessibility.link_title }}">
+        <a href="{{ page.path }}#Outcome_{{ loop.index }}" role="link" title="{{ _outcome.properties.accessibility.link_title }}">
           {{ _outcome.properties.short_name }}
         </a>
       </li>
       {% endfor %}
     </ul>
   </div>
-  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1 col-lg-4 first-xs last-sm">
     <a href="{{ page.path }}#Overview" role="link" title="">
       scroll
     </a>
-    <img src="{{ page.content.properties.project_lead_image }}" alt="" title="" />
+
+    <img src="{{ page.content.properties.project_lead_image }}" 
+         alt=""
+         title=""
+         height="828"
+         width="414"
+         class="" />
   </div>
 </section>
 
-<section class="row" id="Overview">
+<!-- Start:Overview Contains: Background, Platforms, Roles, and Collaborators -->
+<section class="row section-break" id="Overview">
   <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
     <h2>
       Background
@@ -40,7 +47,7 @@
 
     {{ page.content.properties.background | safe }}
   </div>
-  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5">
+  <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1 col-lg-4">
     <h3>
       Platform
     </h3>
@@ -75,5 +82,52 @@
     </ul>
   </div>
 </section>
+<!-- End:Overview -->
+
+<!-- Start:Outcomes -->
+{% for _outcome in page.content.properties.outcomes %}
+<section class="row section-break" id="Outcome_{{ loop.index }}">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+    <h2>
+      Challenge #{{ loop.index }}
+    </h2>
+
+    <p>
+      {{ _outcome.properties.description | safe }}
+    </p>
+
+    <p>
+      {{ _outcome.properties.long_name | safe }}
+    </p>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-4 col-md-offset-1 col-lg-4 col-lg-offset-1">
+  </div>
+</section>
+{% endfor %}
+<!-- End:Outcomes -->
+
+<!-- Start:Process -->
+<section class="row section-break" id="Process">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+    <h2>
+      Process
+    </h2>
+
+    {{ page.content.properties.process | safe }}
+  </div>
+</section>
+<!-- End:Process -->
+
+<!-- Start:Timeline -->
+<section class="row section-break" id="Timeline">
+  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+    <h2>
+      Timeline
+    </h2>
+
+    {{ page.content.properties.timeline | safe }}
+  </div>
+</section>
+<!-- End:Timeline -->
 
 {% endblock %}
