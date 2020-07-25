@@ -132,7 +132,10 @@ class Application(object):
 
             template = page.meta.get('template', 'page.html')
 
-            return render_template(template, page=page)
+            developer_mode = self.app.config.get('DEBUG') if 'DEBUG' in \
+                              self.app.config else False
+
+            return render_template(template, page=page, developer_mode=developer_mode)
 
         @cube.register_generator
         def core_page_get():
