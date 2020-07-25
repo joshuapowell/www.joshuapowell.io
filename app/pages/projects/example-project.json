@@ -1,0 +1,93 @@
+title: "Project Name"
+optimization: {
+    "title": "",
+    "description": "",
+    "image": "",
+    "url": "",
+    "author": "",
+    "robots": ""
+}
+date: 2020-07-25
+path: "projects/link-name"
+template: "project-single.html"
+content: {
+    "type": null,
+    "geometry": null,
+    "properties": {
+        "project_name": "",
+        "project_lead": "",
+        "project_lead_image": "",
+        "background": "",
+        "platform": [
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "name": "Android"
+                }
+            },
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "name": "API"
+                }
+            },
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "name": "iOS"
+                }
+            },
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "name": "Web"
+                }
+            }            
+        ],
+        "role": [
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "name": ""
+                }
+            }          
+        ],
+        "collaborators": [
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "name": ""
+                }
+            }          
+        ],
+        "outcome": [
+            {
+                "type": null,
+                "geometry": null,
+                "properties": {
+                    "short_name": "",
+                    "long_name": "",
+                    "url": "",
+                    "description": "",
+                    "images": [
+                        {
+                            "type": null,
+                            "geometry": null,
+                            "properties": {}
+                        }
+                    ]
+                }
+            }          
+        ],
+        "process": "",
+        "timeline": "",
+        "previous_link": "",
+        "next_link": ""
+    }
+}
