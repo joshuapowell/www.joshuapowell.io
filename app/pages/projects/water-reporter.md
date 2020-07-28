@@ -14,9 +14,9 @@ content: {
     "type": null,
     "geometry": null,
     "properties": {
-        "project_name": "Water Reporter",
-        "project_lead": "How I turned a neglected form into a platform for saving the environment",
-        "project_lead": "Designing a platform for saving waterways",
+        "project_name": "A case study about Water Reporter",
+        "project_lead": "A platform for saving the environment",
+        "project_lead_overview": "How I collaborated with a team of environmental nonprofits to turn a neglected form into a platform for saving the environment, helping their organizations to:",
         "project_lead_image": "/static/images/project-waterreporter-lead@2x.png",
         "background": "<p><em class=\"highlight\">&ldquo;How can we get staff and volunteers to communicate more so we can get more done?&rdquo;</em> John, the Executive Director of Chespeake Commons asked me.</p><p>At the time, the Commons&rsquo; partner organizations required volunteers to communicate and submit environmental reports via a web form or an email. John wanted to explore how a mobile app could improve communication.</p><p>Through a combination of design thinking workshops, contextual interviews, and fly-on-the-wall studies I discovered three main challenges that had the potential to increase the teams&rsquo; effectiveness.</p>",
         "platforms": [
